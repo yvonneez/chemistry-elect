@@ -1,0 +1,1 @@
+export default function Footer(){ return <footer>Powered by Yvez Consult @2025 Tel:234 9023581885</footer>; }
