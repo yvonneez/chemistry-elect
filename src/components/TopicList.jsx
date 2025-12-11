@@ -1,7 +1,7 @@
 export default function TopicList({ topics, onStart }) {
   return (
     <div>
-      <h1>Chemistry - Electrochemistry</h1>
+      <h1>Revise with me- Chemistry (Metals)</h1>
       <h2>Select a Topic</h2>
       <ul className="topic-list">
         {topics.map((topic,i)=>(
