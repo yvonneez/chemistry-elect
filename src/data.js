@@ -1,91 +1,60 @@
 
 const topics = [
-  {
-      title: "Properties of Metals",
+{
+title: "Acids and Alkalis",
 summary:
-"Metals are generally lustrous, malleable, ductile, good conductors of heat and electricity, and have high melting points and densities. They form positive ions (cations) and often produce basic oxides. Metallic bonding — a lattice of positive ions in a sea of delocalised electrons — explains many metallic properties.",
+"Acids are substances that donate H+ ions in aqueous solution; alkalis (bases soluble in water) accept H+ ions. pH measures acidity: pH < 7 is acidic, pH = 7 neutral, pH > 7 alkaline. Strong acids/bases fully dissociate in water (e.g., HCl, NaOH), while weak acids/bases only partially dissociate (e.g., CH3COOH, NH3). Indicators (litmus, methyl orange, phenolphthalein) change colour depending on pH.",
 questions: [
-{ question: "Which property explains why metals can be drawn into wires?", options: ["Malleability", "Ductility", "Lustre", "Brittleness"], answer: 1 },
-{ question: "Metals conduct electricity because they have _______.", options: ["Mobile protons", "Delocalised electrons", "Ionic bonds", "Strong covalent networks"], answer: 1 },
-{ question: "Which oxide type do most metals form when they burn in oxygen?", options: ["Acidic oxides", "Basic oxides", "Neutral oxides", "Amphoteric oxides"], answer: 1 },
-{ question: "High melting points in metals are mainly due to _______.", options: ["Weak intermolecular forces", "Strong metallic bonds", "Hydrogen bonding", "Van der Waals forces"], answer: 1 },
-{ question: "High boiling points in metals are mainly due to _______.", options: ["Weak intermolecular forces", "Strong metallic bonds", "Hydrogen bonding", "Van der Waals forces"], answer: 1 },   
-   ]
+{ question: "An acid is a substance that mainly donates which ion in water?", options: ["OH-", "H+", "Na+", "Cl-"], answer: 1 },
+{ question: "What pH value is neutral at 25°C?", options: ["0", "7", "14", "3"], answer: 1 },
+{ question: "Which is a strong acid?", options: ["HCl", "CH3COOH", "NH3", "H2CO3"], answer: 0 },
+{ question: "An alkali is simply a base that is _______.", options: ["Soluble in water", "A gas", "An oxidising agent", "A metal"], answer: 0 },
+{ question: "Which indicator turns pink in alkaline solution?", options: ["Methyl orange", "Litmus", "Phenolphthalein", "Bromothymol blue"], answer: 2 }
+]
+},
 
-  },
-   {
-    title: "Metal Reactions",
+
+{
+title: "Formation of Salts",
 summary:
-"Metals react in characteristic ways: with acids to produce a salt and hydrogen, with oxygen to form oxides, and with water (some metals) to produce hydroxides and hydrogen. Reaction reactivity varies across metals; displacement reactions occur when a more reactive metal displaces a less reactive metal from its salt solution.",
+"Salts form when acids react with bases (neutralisation), metals, or carbonates. The type of salt depends on the acid and the other reactant (e.g., HCl + NaOH → NaCl + H2O). Salts contain a positive ion (cation) from the base/metal and a negative ion (anion) from the acid. Naming follows the ions present (e.g., sodium sulfate from Na+ and SO4^2-).",
 questions: [
-{ question: "What gas is commonly produced when a metal reacts with an acid?", options: ["Oxygen", "Hydrogen", "Carbon dioxide", "Nitrogen"], answer: 1 },
-{ question: "Which metal reacts vigorously with cold water?", options: ["Iron", "Sodium", "Copper", "Gold"], answer: 1 },
-{ question: "A displacement reaction occurs when _______.", options: ["A less reactive metal displaces a more reactive metal", "A more reactive metal displaces a less reactive metal", "Two metals form an alloy", "An acid displaces a metal"], answer: 1 },
-{ question: "Which product forms when magnesium burns in oxygen?", options: ["MgO (magnesium oxide)", "Mg(OH)2", "MgCl2", "MgSO4"], answer: 0 },
-{ question: "When iron reacts with dilute hydrochloric acid, the salt formed is _______.", options: ["NaCl", "FeCl2", "Fe2O3", "KCl"], answer: 1 }
-    ]
-  },
-  {
-   title: "Reactivity of Metals & Their Uses",
-summary:
-"Metal reactivity follows a reactivity series (e.g., K, Na, Ca, Mg, Al, Zn, Fe, Pb, (H), Cu, Ag, Au). Highly reactive metals are used where reactivity is needed or avoided where corrosion is a problem. Less reactive metals (Cu, Ag, Au) are useful in electrical wiring, jewellery, and coinage. Reactivity determines extraction method and applications.",
-questions: [
-{ question: "Which metal is least likely to corrode and is often found in jewellery?", options: ["Potassium", "Iron", "Gold", "Sodium"], answer: 2 },
-{ question: "Which metal sits above hydrogen in the reactivity series and will react with acids to produce H2?", options: ["Copper", "Silver", "Zinc", "Gold"], answer: 2 },
-{ question: "Why is aluminium often used for aircraft parts?", options: ["Very reactive without protection", "Low density and good strength", "High density and fragility", "Poor electrical conductivity"], answer: 1 },
-{ question: "Which metal is commonly used for electrical wiring because it balances conductivity and cost?", options: ["Iron", "Copper", "Gold", "Lead"], answer: 1 },
-{ question: "Which application uses a very reactive metal sacrificially to protect steel from corrosion?", options: ["Galvanising with zinc", "Plating with gold", "Painting with varnish", "Alloying with copper"], answer: 0 }
+{ question: "Neutralisation between HCl and NaOH produces which salt?", options: ["NaCl", "KCl", "CaCO3", "Na2SO4"], answer: 0 },
+{ question: "Salt contains which two types of ions?", options: ["Protons and neutrons", "Cations and anions", "Electrons and photons", "Molecules and radicals"], answer: 1 },
+{ question: "Which reaction type produces a salt and water?", options: ["Neutralisation", "Oxidation", "Precipitation", "Decomposition"], answer: 0 },
+{ question: "A salt formed from H2SO4 and NaOH is called?", options: ["Sodium sulfate", "Sodium nitrate", "Sodium carbonate", "Sodium hydroxide"], answer: 0 },
+{ question: "When a metal reacts with acid, the products often include a salt and _______.", options: ["Oxygen", "Hydrogen gas", "Carbon dioxide", "Water"], answer: 1 }
 ]
-    
-  },
-   {
-   title: "Identifying Metal Ions",
+},
+
+
+{
+title: "Methods of Preparing Soluble Salts",
 summary:
-"Metal ions can be identified by characteristic flame test colours, precipitation reactions with reagents (e.g., NaOH, NH3), and by complex formation. Flame tests: lithium (red), sodium (yellow), potassium (lilac), calcium (brick red), copper (green/blue). Precipitate colours help distinguish ions (e.g., Cu2+ gives blue precipitate with NaOH).",
+"Soluble salts can be prepared by titration (neutralisation) between an acid and alkali followed by evaporation, by reacting an excess of insoluble base or carbonate with acid and filtering off excess, or by direct reaction of soluble salts. Titration gives a pure, stoichiometric salt; evaporation removes water to crystallise the salt.",
 questions: [
-{ question: "What colour flame does sodium produce in a flame test?", options: ["Red", "Yellow", "Green", "Lilac"], answer: 1 },
-{ question: "Which reagent commonly forms a blue precipitate with Cu2+ ions?", options: ["NaOH", "HCl", "AgNO3", "BaCl2"], answer: 0 },
-{ question: "Potassium gives which flame colour?", options: ["Lilac", "Orange", "Blue", "No colour"], answer: 0 },
-{ question: "Silver ions (Ag+) form a white precipitate with which reagent?", options: ["NaOH", "NH3", "AgNO3", "Cl- (as in NaCl)"], answer: 3 },
-{ question: "Which test can distinguish between Pb2+ and Ca2+ by forming different coloured precipitates with KI?", options: ["Flame test", "Precipitation with iodide", "pH indicator", "Reaction with oxygen"], answer: 1 }
+{ question: "Which method gives a pure, stoichiometric soluble salt from acid + alkali?", options: ["Titration (neutralisation)", "Heating with carbon", "Electrolysis", "Displacement"], answer: 0 },
+{ question: "After neutralisation, how is the salt typically obtained?", options: ["By evaporation/crystallisation", "By distillation", "By gas collection", "By condensation"], answer: 0 },
+{ question: "Using excess metal carbonate with acid and filtering yields a salt by removing what?", options: ["Solvent", "Excess base", "Gas product", "Impurities only"], answer: 1 },
+{ question: "Titration requires an indicator to show the _______.", options: ["End point", "Boiling point", "Melting point", "Colour of salt"], answer: 0 },
+{ question: "Which is a common indicator for strong acid–strong base titration?", options: ["Methyl orange", "Phenolphthalein", "Starch", "Universal indicator"], answer: 1 }
 ]
-  },
-  {
-    title: "Extraction of Metals",
+},
+
+
+{
+title: "Preparing Insoluble Salts",
 summary:
-"Metal extraction depends on reactivity. Very reactive metals (K, Na, Ca, Mg, Al) are extracted by electrolysis of molten compounds; moderately reactive metals (Zn, Fe) are often extracted by reduction with carbon (smelting) or other reducing agents. Less reactive metals may be found native and require minimal processing. The choice of method is guided by thermodynamics and economics.",
+"Insoluble salts are commonly prepared by precipitation: mixing two soluble salt solutions that contain ions which form an insoluble product (e.g., lead(II) nitrate + potassium iodide → lead(II) iodide (yellow precipitate) + potassium nitrate). The precipitate is collected by filtration and washed to remove soluble impurities.",
 questions: [
-{ question: "Which method is typically used to extract aluminium from its ore?", options: ["Electrolysis of molten alumina", "Reduction with carbon at low temperature", "Displacement with zinc", "Hydrometallurgy at room temperature"], answer: 0 },
-{ question: "Iron is commonly extracted from haematite by reduction with _______.", options: ["Carbon (coke)", "Electrolysis", "Sodium", "Mercury"], answer: 0 },
-{ question: "Which metal is often purified by electrolytic refining to obtain high purity?", options: ["Gold", "Copper", "Iron", "Sodium"], answer: 1 },
-{ question: "A metal that occurs in the Earth uncombined (native) is likely to be _______.", options: ["Very reactive", "Unreactive (e.g., gold)", "Extracted by electrolysis", "Always an alloy"], answer: 1 },
-{ question: "Which factor most influences the choice between electrolysis and reduction with carbon?", options: ["The colour of the metal", "Reactivity of the metal (position in reactivity series)", "Occurrence of the ore on land or sea", "Taste of the metal"], answer: 1 }
+{ question: "Which process forms insoluble salts from two soluble solutions?", options: ["Precipitation", "Neutralisation", "Electrolysis", "Sublimation"], answer: 0 },
+{ question: "Lead(II) iodide appears as which colour precipitate?", options: ["White", "Yellow", "Blue", "Green"], answer: 1 },
+{ question: "After precipitation, how is the solid separated?", options: ["Filtration", "Distillation", "Chromatography", "Titration"], answer: 0 },
+{ question: "Precipitates are washed to remove _______.", options: ["Solvent only", "Soluble impurities", "Gases", "Unreacted metals"], answer: 1 },
+{ question: "Which reagent combination can produce barium sulfate precipitate?", options: ["BaCl2 + Na2SO4", "NaCl + KBr", "AgNO3 + NaCl", "CuSO4 + NaOH"], answer: 0 }
 ]
-  },
-  {
-    title: "Metal Corrosion",
-summary:
-"Corrosion is the gradual destruction of metals by chemical reactions with their environment (commonly oxidation). Iron rusting (formation of hydrated iron(III) oxide) requires oxygen and water. Protection methods include painting, galvanising (zinc sacrificial coating), alloying (stainless steel), and cathodic protection.",
-questions: [
-{ question: "Rusting of iron requires which two substances?", options: ["Carbon dioxide and nitrogen", "Oxygen and water", "Hydrogen and chlorine", "Sunlight and ozone"], answer: 1 },
-{ question: "Which protective method uses a more reactive metal to protect iron?", options: ["Painting", "Galvanising", "Polishing", "Annealing"], answer: 1 },
-{ question: "Stainless steel resists corrosion due to the presence of which element?", options: ["Lead", "Chromium", "Mercury", "Calcium"], answer: 1 },
-{ question: "Cathodic protection works by making the metal surface act as the _______.", options: ["Anode (where corrosion occurs)", "Cathode (protected)", "Oxidising agent", "Electrolyte"], answer: 1 },
-{ question: "Which condition speeds up corrosion?", options: ["Dry, oxygen-free environment", "Presence of saltwater and oxygen", "Protective paint coating", "Low temperature and no moisture"], answer: 1 }
-]
-  },
-  {
-   title: "Alloys",
-summary:
-"Alloys are mixtures of a metal with one or more other elements (metals or non-metals) designed to improve properties: strength, hardness, corrosion resistance, or reduced melting point. Examples: steel (iron + carbon) is stronger than pure iron; brass (copper + zinc) is used for fittings; bronze (copper + tin) is harder than copper.",
-questions: [
-{ question: "Steel is primarily an alloy of iron and which element?", options: ["Carbon", "Aluminium", "Copper", "Zinc"], answer: 0 },
-{ question: "Which alloy is commonly used for making coins and musical instruments (brass)?", options: ["Copper + tin", "Copper + zinc", "Iron + carbon", "Aluminium + magnesium"], answer: 1 },
-{ question: "Why are alloys often stronger than pure metals?", options: ["Alloys always have lower melting points", "Different-sized atoms distort the lattice and hinder dislocation motion", "Alloys are always lighter", "Alloys are more reactive"], answer: 1 },
-{ question: "Which alloy is used for non-corrosive cutlery and kitchenware?", options: ["Bronze", "Stainless steel", "Brass", "Cast iron"], answer: 1 },
-{ question: "An alloy designed to have low melting point for soldering is called _______.", options: ["Steel", "Solder (e.g., tin-lead alloy)", "Bronze", "Stainless steel"], answer: 1 }
-]
-  }
+},
+
 ];
 
 export default topics;
