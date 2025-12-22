@@ -1,123 +1,102 @@
 const topics = [
 {
-title: "System Software and Application Software",
+title: "Central Processing Unit (CPU)",
 summary:
-"System software is designed to manage and control the computer’s hardware and provide a platform for other software to run. Examples include operating systems such as Windows, macOS, and Linux, as well as utility programs like antivirus software. Application software allows users to perform specific tasks such as word processing, spreadsheets, browsing the internet, and playing games. The key difference is that system software runs the computer, while application software helps the user.",
+"The Central Processing Unit (CPU) is the main component of a computer responsible for processing data and executing instructions. It performs calculations, makes decisions, and controls the operation of other hardware components. The CPU is often described as the brain of the computer because all processing tasks pass through it.",
 
 questions: [
-{ question: "Which of the following is system software?", options: ["Microsoft Word", "Windows operating system", "Excel", "PowerPoint"], answer: 1 },
-{ question: "Application software is mainly used to:", options: ["Control hardware", "Manage memory", "Perform user tasks", "Start the computer"], answer: 2 },
-{ question: "Which of these is application software?", options: ["Linux", "macOS", "Google Chrome", "BIOS"], answer: 2 },
-{ question: "System software is important because it:", options: ["Edits documents", "Provides a platform for applications", "Creates hardware", "Stores data permanently"], answer: 1 }
-  ]
- },
-
-{
-title: "The Role and Functions of an Operating System",
-summary:
-"An operating system (OS) is system software that manages the computer’s hardware and software resources. Its main functions include memory management, process scheduling, file management, device management, and providing a user interface. The operating system acts as an intermediary between users, application software, and hardware.",
-
-questions: [
-{ question: "What is the main role of an operating system?", options: ["Create documents", "Manage hardware and software resources", "Design programs", "Manufacture hardware"], answer: 1 },
-{ question: "Which of the following is a function of an OS?", options: ["Word processing", "Memory management", "Gaming", "Spreadsheet creation"], answer: 1 },
-{ question: "The operating system acts as an interface between:", options: ["Hardware and electricity", "Users and hardware", "Software and the internet", "Programs only"], answer: 1 },
-{ question: "Which is an example of an operating system?", options: ["Chrome", "Windows", "Excel", "Python"], answer: 1 }
+{ question: "What does CPU stand for?", options: ["Central Program Unit", "Central Processing Unit", "Computer Processing Unit", "Core Processing Unit"], answer: 1 },
+{ question: "The CPU is often referred to as the:", options: ["Memory of the computer", "Brain of the computer", "Storage unit", "Input device"], answer: 1 },
+{ question: "Which of the following is NOT a function of the CPU?", options: ["Processing data", "Executing instructions", "Controlling hardware", "Storing files permanently"], answer: 3 },
+{ question: "Which component carries out instructions?", options: ["Hard disk", "CPU", "Monitor", "Keyboard"], answer: 1 },
+{ question: "All data processing in a computer is handled by the:", options: ["RAM", "CPU", "Power supply", "Motherboard"], answer: 1 }
 ]
 },
 
 {
-title: "Hardware, Firmware and Operating Systems",
+title: "Von Neumann Architecture",
 summary:
-"Hardware refers to the physical components of a computer such as the CPU, memory, keyboard, and storage devices. Firmware is low-level software stored in read-only memory that controls basic hardware functions and helps start the computer, such as the BIOS. The operating system manages hardware resources and allows application software to run. All three components must work together for application software to function correctly.",
+"The Von Neumann architecture is a computer design model where program instructions and data are stored in the same memory. It consists of a CPU, memory, input devices, and output devices. This architecture allows instructions to be fetched from memory and executed sequentially.",
 
 questions: [
-{ question: "Which component is physical and tangible?", options: ["Firmware", "Hardware", "Operating system", "Application"], answer: 1 },
-{ question: "Firmware is best described as software that:", options: ["Runs user applications", "Is permanently stored and controls hardware", "Edits files", "Accesses the internet"], answer: 1 },
-{ question: "Which software manages hardware resources?", options: ["Application software", "Firmware", "Operating system", "Utility software"], answer: 2 },
-{ question: "Which combination is required for applications to run?", options: ["Hardware only", "Hardware and applications", "Hardware, firmware, and OS", "OS only"], answer: 2 }
+{ question: "Who proposed the Von Neumann architecture?", options: ["Alan Turing", "Charles Babbage", "John Von Neumann", "Tim Berners-Lee"], answer: 2 },
+{ question: "In Von Neumann architecture, data and instructions are stored:", options: ["In separate memories", "On external storage", "In the same memory", "In registers only"], answer: 2 },
+{ question: "Which of the following is part of the Von Neumann model?", options: ["CPU", "Memory", "Input/Output devices", "All of the above"], answer: 3 },
+{ question: "A key feature of Von Neumann architecture is:", options: ["Parallel execution", "Sequential instruction processing", "Wireless processing", "Cloud storage"], answer: 1 },
+{ question: "One limitation of Von Neumann architecture is known as:", options: ["Von Neumann bottleneck", "Cache failure", "Clock delay", "Memory leak"], answer: 0 }
 ]
 },
 
 {
-title: "Role and Operation of Interrupts",
+title: "ALU, Control Unit and Registers",
 summary:
-"Interrupts are signals sent to the processor to indicate that an event requires immediate attention. When an interrupt occurs, the CPU temporarily stops its current task, saves its state, and executes an interrupt service routine. After the interrupt is handled, the CPU resumes its original task. Interrupts improve efficiency by allowing the system to respond quickly to events such as keyboard input or hardware faults.",
+"The Arithmetic Logic Unit (ALU) performs arithmetic calculations and logical operations. The Control Unit (CU) directs the operation of the processor by controlling the flow of data and instructions. Registers are small, fast storage locations within the CPU used to hold data and instructions temporarily during processing.",
 
 questions: [
-{ question: "What is an interrupt?", options: ["A shutdown command", "A signal that requires CPU attention", "A type of software", "A memory error"], answer: 1 },
-{ question: "When an interrupt occurs, the CPU:", options: ["Ignores it", "Stops permanently", "Pauses the current task", "Deletes the program"], answer: 2 },
-{ question: "Why are interrupts important?", options: ["They slow down the CPU", "They improve system efficiency", "They remove errors", "They increase storage"], answer: 1 },
-{ question: "Which of the following can generate an interrupt?", options: ["Keyboard input", "Hard disk size", "Screen colour", "File name"], answer: 0 }
-]
-},
-
-/* ===============================
-   MODULE 2: PROGRAMMING LANGUAGES, TRANSLATORS & IDES
-================================ */
-
-{
-title: "High-Level and Low-Level Programming Languages",
-summary:
-"High-level programming languages are designed to be easy for humans to read, write, and understand. Examples include Python, Java, and JavaScript. They are portable and easier to maintain but may run slower. Low-level languages are closer to machine code and hardware, such as assembly language and machine language. They run faster but are harder to write and understand.",
-
-questions: [
-{ question: "Which is an advantage of high-level languages?", options: ["Hardware dependent", "Easy to read and maintain", "Uses binary", "Difficult to debug"], answer: 1 },
-{ question: "Low-level languages are closer to:", options: ["Human language", "Hardware", "Applications", "Databases"], answer: 1 },
-{ question: "Which is a high-level language?", options: ["Assembly", "Machine code", "Python", "Binary"], answer: 2 },
-{ question: "Which is a disadvantage of low-level languages?", options: ["Run slowly", "Hard to write and maintain", "Use translators", "Portable"], answer: 1 }
+{ question: "Which part of the CPU performs calculations?", options: ["Control Unit", "Register", "ALU", "Cache"], answer: 2 },
+{ question: "The Control Unit is responsible for:", options: ["Storing data permanently", "Executing arithmetic operations", "Controlling data flow", "Displaying output"], answer: 2 },
+{ question: "Registers are best described as:", options: ["Large storage devices", "Temporary high-speed storage", "Input devices", "Secondary memory"], answer: 1 },
+{ question: "Which operation is carried out by the ALU?", options: ["File storage", "Addition", "Printing", "Booting"], answer: 1 },
+{ question: "Registers are located:", options: ["In RAM", "In the hard disk", "Inside the CPU", "On the motherboard"], answer: 2 }
 ]
 },
 
 {
-title: "Assembly Language and Assemblers",
+title: "Cores, Cache and Internal Clock",
 summary:
-"Assembly language is a low-level programming language that uses mnemonics such as ADD, SUB, and MOV to represent machine instructions. Each assembly instruction corresponds closely to a machine code instruction. An assembler is a translator that converts assembly language into machine code so that the processor can execute it.",
+"Modern CPUs may contain multiple cores, allowing them to process several tasks simultaneously. Cache is a small, fast memory inside or close to the CPU that stores frequently used data and instructions. The internal clock controls the speed at which the CPU processes instructions, measured in hertz (Hz).",
 
 questions: [
-{ question: "Assembly language uses:", options: ["Binary only", "English sentences", "Mnemonics", "Flowcharts"], answer: 2 },
-{ question: "Assembly language is classified as:", options: ["High-level", "Low-level", "Fourth-generation", "Markup"], answer: 1 },
-{ question: "Which translator is used for assembly language?", options: ["Compiler", "Interpreter", "Assembler", "Debugger"], answer: 2 },
-{ question: "Assembly language is closer to:", options: ["Human language", "Hardware", "Operating systems", "Databases"], answer: 1 }
+{ question: "A CPU core is:", options: ["A storage device", "An independent processing unit", "A power supply", "A software program"], answer: 1 },
+{ question: "What is the purpose of cache memory?", options: ["Long-term storage", "Speed up data access", "Store files", "Display output"], answer: 1 },
+{ question: "The internal clock controls the:", options: ["Size of memory", "Speed of processing", "Colour of display", "Type of software"], answer: 1 },
+{ question: "Which unit is used to measure clock speed?", options: ["Bytes", "Hertz", "Volts", "Pixels"], answer: 1 },
+{ question: "More CPU cores generally allow:", options: ["Slower processing", "Multitasking", "Less power use always", "Reduced storage"], answer: 1 }
 ]
 },
 
 {
-title: "Compilers and Interpreters",
+title: "Fetch Decode Execute Cycle",
 summary:
-"Compilers and interpreters are translators used for high-level programming languages. A compiler translates the entire program into machine code at once and produces an executable file. An interpreter translates and executes the program line by line without creating a separate executable file.",
+"The fetch decode execute cycle describes how a CPU processes instructions. First, an instruction is fetched from memory. Next, it is decoded to determine what action is required. Finally, the instruction is executed. This cycle repeats continuously while the computer is running.",
 
 questions: [
-{ question: "A compiler translates:", options: ["Line by line", "The entire program at once", "Only errors", "Machine code to high-level"], answer: 1 },
-{ question: "An interpreter works by:", options: ["Translating the whole program first", "Running machine code only", "Translating line by line", "Ignoring errors"], answer: 2 },
-{ question: "Which produces an executable file?", options: ["Interpreter", "Assembler", "Compiler", "IDE"], answer: 2 },
-{ question: "Which translator is easier for debugging?", options: ["Compiler", "Interpreter", "Assembler", "Loader"], answer: 1 }
+{ question: "What is the first stage of the CPU cycle?", options: ["Execute", "Decode", "Fetch", "Store"], answer: 2 },
+{ question: "During the decode stage, the CPU:", options: ["Carries out the instruction", "Identifies the instruction", "Stores data", "Outputs results"], answer: 1 },
+{ question: "Which stage performs the instruction?", options: ["Fetch", "Decode", "Execute", "Load"], answer: 2 },
+{ question: "The fetch decode execute cycle occurs:", options: ["Once only", "Only at startup", "Continuously", "When programs crash"], answer: 2 },
+{ question: "Where are instructions fetched from?", options: ["Hard disk", "Cache only", "Main memory (RAM)", "Output devices"], answer: 2 }
 ]
 },
 
 {
-title: "Advantages and Disadvantages of Compilers and Interpreters",
+title: "Instruction Set for a CPU",
 summary:
-"Compiled programs usually run faster because translation is completed before execution, but errors are detected only after compilation. Interpreted programs are easier to debug since errors are reported line by line, but they run slower because translation occurs during execution.",
+"An instruction set is the collection of commands that a CPU can understand and execute. These instructions include data transfer, arithmetic operations, logical operations, and control instructions. Different CPUs may have different instruction sets.",
 
 questions: [
-{ question: "One advantage of a compiler is that programs:", options: ["Run faster", "Are easier to debug", "Run line by line", "Do not need machine code"], answer: 0 },
-{ question: "One disadvantage of a compiler is that:", options: ["It runs slowly", "Errors are found after compilation", "It cannot translate code", "It needs no storage"], answer: 1 },
-{ question: "An advantage of an interpreter is:", options: ["Faster execution", "Line-by-line error detection", "Executable file creation", "No translation"], answer: 1 },
-{ question: "Which translator is slower during execution?", options: ["Compiler", "Interpreter", "Assembler", "Linker"], answer: 1 }
+{ question: "An instruction set is:", options: ["A list of programs", "Commands the CPU can execute", "A type of memory", "A hardware component"], answer: 1 },
+{ question: "Which of the following is a type of CPU instruction?", options: ["Fetch", "Add", "Save file", "Display image"], answer: 1 },
+{ question: "Instruction sets differ because:", options: ["All CPUs are the same", "Different CPUs are designed differently", "Memory size changes", "Clock speed varies"], answer: 1 },
+{ question: "Which instruction controls program flow?", options: ["Arithmetic", "Logical", "Control", "Transfer"], answer: 2 },
+{ question: "Instruction sets are executed by the:", options: ["Operating system", "CPU", "RAM", "Hard disk"], answer: 1 }
 ]
 },
 
 {
-title: "Integrated Development Environments (IDEs)",
+title: "Embedded Systems",
 summary:
-"An Integrated Development Environment (IDE) is software that provides programmers with tools needed to write, test, debug, and manage code in one place. Common features include a code editor, compiler or interpreter, debugger, syntax highlighting, and error detection. IDEs improve productivity and reduce programming errors.",
+"An embedded system is a computer system built into a larger device to perform a specific function. Unlike general-purpose computers, embedded systems are designed for dedicated tasks. Examples include washing machines, microwave ovens, traffic lights, and digital cameras.",
 
-questions : [
-{ question: "An IDE is mainly used for:", options: ["Building hardware", "Writing and debugging programs", "Running operating systems", "Storing files"], answer: 1 },
-{ question: "Which of the following is a feature of an IDE?", options: ["Power supply", "Syntax highlighting", "RAM", "Hard disk"], answer: 1 },
-{ question: "Which tool helps find errors in a program?", options: ["Editor", "Debugger", "Assembler", "Loader"], answer: 1 },
-{ question: "IDEs are useful because they:", options: ["Slow down programming", "Increase errors", "Improve programmer productivity", "Replace operating systems"], answer: 2 }
- ]
- }
+questions: [
+{ question: "An embedded system is designed to:", options: ["Perform many tasks", "Run office software", "Carry out a specific function", "Store large amounts of data"], answer: 2 },
+{ question: "Which of the following is an embedded system?", options: ["Desktop computer", "Laptop", "Washing machine controller", "Tablet"], answer: 2 },
+{ question: "Embedded systems are usually:", options: ["General-purpose", "Dedicated-purpose", "Cloud-based", "Portable only"], answer: 1 },
+{ question: "Which feature is common in embedded systems?", options: ["Large storage", "Specific task design", "Keyboard input", "Monitor output"], answer: 1 },
+{ question: "Embedded systems are often found in:", options: ["Home appliances", "Data centres", "Programming labs", "Office desktops"], answer: 0 }]
+    }
 ];
+
 export default topics;
+
+
