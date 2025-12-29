@@ -1,101 +1,59 @@
 const topics = [
-{
-title: "Central Processing Unit (CPU)",
-summary:
-"The Central Processing Unit (CPU) is the main component of a computer responsible for processing data and executing instructions. It performs calculations, makes decisions, and controls the operation of other hardware components. The CPU is often described as the brain of the computer because all processing tasks pass through it.",
 
+{
+title: "Input Devices",
+summary:
+"Input devices are hardware components used to enter data and instructions into a computer system. They enable communication between the user and the computer. Input devices convert human actions such as typing, clicking, speaking, or scanning into machine-readable signals that the computer can process. Common examples include keyboards, mice, scanners, microphones, webcams, and joysticks.",
 questions: [
-{ question: "What does CPU stand for?", options: ["Central Program Unit", "Central Processing Unit", "Computer Processing Unit", "Core Processing Unit"], answer: 1 },
-{ question: "The CPU is often referred to as the:", options: ["Memory of the computer", "Brain of the computer", "Storage unit", "Input device"], answer: 1 },
-{ question: "Which of the following is NOT a function of the CPU?", options: ["Processing data", "Executing instructions", "Controlling hardware", "Storing files permanently"], answer: 3 },
-{ question: "Which component carries out instructions?", options: ["Hard disk", "CPU", "Monitor", "Keyboard"], answer: 1 },
-{ question: "All data processing in a computer is handled by the:", options: ["RAM", "CPU", "Power supply", "Motherboard"], answer: 1 }
+{ question: "Which of the following is an input device?", options: ["Monitor", "Keyboard", "Printer", "Speaker"], answer: 1 },
+{ question: "What is the main function of an input device?", options: ["Store data", "Display output", "Enter data into the computer", "Process data"], answer: 2 },
+{ question: "Which device is used to input sound into a computer?", options: ["Speaker", "Microphone", "Monitor", "Projector"], answer: 1 },
+{ question: "A mouse is mainly used to:", options: ["Type text", "Point and select items", "Print documents", "Store files"], answer: 1 },
+{ question: "Which input device is used to capture images or videos?", options: ["Scanner", "Webcam", "Printer", "Speaker"], answer: 1 }
 ]
 },
 
 {
-title: "Von Neumann Architecture",
+title: "Output Devices",
 summary:
-"The Von Neumann architecture is a computer design model where program instructions and data are stored in the same memory. It consists of a CPU, memory, input devices, and output devices. This architecture allows instructions to be fetched from memory and executed sequentially.",
-
+"Output devices are hardware components that present processed information from a computer to the user. They convert machine-readable data into human-readable form such as text, images, sound, or hard copy. Output devices allow users to see, hear, or obtain results after data processing. Examples include monitors, printers, speakers, headphones, and projectors.",
 questions: [
-{ question: "Who proposed the Von Neumann architecture?", options: ["Alan Turing", "Charles Babbage", "John Von Neumann", "Tim Berners-Lee"], answer: 2 },
-{ question: "In Von Neumann architecture, data and instructions are stored:", options: ["In separate memories", "On external storage", "In the same memory", "In registers only"], answer: 2 },
-{ question: "Which of the following is part of the Von Neumann model?", options: ["CPU", "Memory", "Input/Output devices", "All of the above"], answer: 3 },
-{ question: "A key feature of Von Neumann architecture is:", options: ["Parallel execution", "Sequential instruction processing", "Wireless processing", "Cloud storage"], answer: 1 },
-{ question: "One limitation of Von Neumann architecture is known as:", options: ["Von Neumann bottleneck", "Cache failure", "Clock delay", "Memory leak"], answer: 0 }
+{ question: "Which of the following is an output device?", options: ["Keyboard", "Mouse", "Monitor", "Scanner"], answer: 2 },
+{ question: "Which device produces hard copy output?", options: ["Monitor", "Printer", "Speaker", "Microphone"], answer: 1 },
+{ question: "Speakers are used to output:", options: ["Text", "Images", "Sound", "Video only"], answer: 2 },
+{ question: "Which output device is used for large audience display?", options: ["Projector", "Mouse", "Scanner", "Flash drive"], answer: 0 },
+{ question: "Output devices mainly:", options: ["Input data", "Store data", "Display results", "Control processing"], answer: 2 }
 ]
 },
 
 {
-title: "ALU, Control Unit and Registers",
+title: "Data Storage Devices",
 summary:
-"The Arithmetic Logic Unit (ALU) performs arithmetic calculations and logical operations. The Control Unit (CU) directs the operation of the processor by controlling the flow of data and instructions. Registers are small, fast storage locations within the CPU used to hold data and instructions temporarily during processing.",
-
+"Data storage devices are hardware components used to store data, programs, and information for future use. Storage devices can be primary (main memory such as RAM) or secondary (backing storage such as hard disks and flash drives). They allow data to be saved permanently or temporarily and retrieved when needed.",
 questions: [
-{ question: "Which part of the CPU performs calculations?", options: ["Control Unit", "Register", "ALU", "Cache"], answer: 2 },
-{ question: "The Control Unit is responsible for:", options: ["Storing data permanently", "Executing arithmetic operations", "Controlling data flow", "Displaying output"], answer: 2 },
-{ question: "Registers are best described as:", options: ["Large storage devices", "Temporary high-speed storage", "Input devices", "Secondary memory"], answer: 1 },
-{ question: "Which operation is carried out by the ALU?", options: ["File storage", "Addition", "Printing", "Booting"], answer: 1 },
-{ question: "Registers are located:", options: ["In RAM", "In the hard disk", "Inside the CPU", "On the motherboard"], answer: 2 }
+{ question: "Which of the following is a data storage device?", options: ["Keyboard", "Flash drive", "Monitor", "Mouse"], answer: 1 },
+{ question: "Which storage device is considered permanent storage?", options: ["RAM", "Cache", "Hard disk", "Register"], answer: 2 },
+{ question: "Which device stores data temporarily while the computer is on?", options: ["ROM", "Hard disk", "RAM", "Flash drive"], answer: 2 },
+{ question: "CDs and DVDs are examples of:", options: ["Input devices", "Output devices", "Optical storage devices", "Network devices"], answer: 2 },
+{ question: "An external hard drive is mainly used to:", options: ["Input data", "Display images", "Store and back up data", "Connect networks"], answer: 2 }
 ]
 },
 
 {
-title: "Cores, Cache and Internal Clock",
+title: "Network Hardware",
 summary:
-"Modern CPUs may contain multiple cores, allowing them to process several tasks simultaneously. Cache is a small, fast memory inside or close to the CPU that stores frequently used data and instructions. The internal clock controls the speed at which the CPU processes instructions, measured in hertz (Hz).",
-
+"Network hardware refers to physical devices that enable computers and other devices to communicate and share resources over a network. These devices manage data transmission, connections, and network access. Common network hardware includes routers, switches, modems, network interface cards (NICs), access points, and network cables.",
 questions: [
-{ question: "A CPU core is:", options: ["A storage device", "An independent processing unit", "A power supply", "A software program"], answer: 1 },
-{ question: "What is the purpose of cache memory?", options: ["Long-term storage", "Speed up data access", "Store files", "Display output"], answer: 1 },
-{ question: "The internal clock controls the:", options: ["Size of memory", "Speed of processing", "Colour of display", "Type of software"], answer: 1 },
-{ question: "Which unit is used to measure clock speed?", options: ["Bytes", "Hertz", "Volts", "Pixels"], answer: 1 },
-{ question: "More CPU cores generally allow:", options: ["Slower processing", "Multitasking", "Less power use always", "Reduced storage"], answer: 1 }
+{ question: "Which device connects computers together in a network?", options: ["Printer", "Router", "Keyboard", "Scanner"], answer: 1 },
+{ question: "Which network device provides wireless access?", options: ["Switch", "Access point", "Hard disk", "Monitor"], answer: 1 },
+{ question: "A Network Interface Card (NIC) is used to:", options: ["Store data", "Display output", "Connect a computer to a network", "Print documents"], answer: 2 },
+{ question: "Which device directs data packets between networks?", options: ["Switch", "Router", "Mouse", "Flash drive"], answer: 1 },
+{ question: "Ethernet cables are used to:", options: ["Store data", "Provide wired network connections", "Display information", "Input commands"], answer: 1 }
 ]
-},
+}
 
-{
-title: "Fetch Decode Execute Cycle",
-summary:
-"The fetch decode execute cycle describes how a CPU processes instructions. First, an instruction is fetched from memory. Next, it is decoded to determine what action is required. Finally, the instruction is executed. This cycle repeats continuously while the computer is running.",
-
-questions: [
-{ question: "What is the first stage of the CPU cycle?", options: ["Execute", "Decode", "Fetch", "Store"], answer: 2 },
-{ question: "During the decode stage, the CPU:", options: ["Carries out the instruction", "Identifies the instruction", "Stores data", "Outputs results"], answer: 1 },
-{ question: "Which stage performs the instruction?", options: ["Fetch", "Decode", "Execute", "Load"], answer: 2 },
-{ question: "The fetch decode execute cycle occurs:", options: ["Once only", "Only at startup", "Continuously", "When programs crash"], answer: 2 },
-{ question: "Where are instructions fetched from?", options: ["Hard disk", "Cache only", "Main memory (RAM)", "Output devices"], answer: 2 }
-]
-},
-
-{
-title: "Instruction Set for a CPU",
-summary:
-"An instruction set is the collection of commands that a CPU can understand and execute. These instructions include data transfer, arithmetic operations, logical operations, and control instructions. Different CPUs may have different instruction sets.",
-
-questions: [
-{ question: "An instruction set is:", options: ["A list of programs", "Commands the CPU can execute", "A type of memory", "A hardware component"], answer: 1 },
-{ question: "Which of the following is a type of CPU instruction?", options: ["Fetch", "Add", "Save file", "Display image"], answer: 1 },
-{ question: "Instruction sets differ because:", options: ["All CPUs are the same", "Different CPUs are designed differently", "Memory size changes", "Clock speed varies"], answer: 1 },
-{ question: "Which instruction controls program flow?", options: ["Arithmetic", "Logical", "Control", "Transfer"], answer: 2 },
-{ question: "Instruction sets are executed by the:", options: ["Operating system", "CPU", "RAM", "Hard disk"], answer: 1 }
-]
-},
-
-{
-title: "Embedded Systems",
-summary:
-"An embedded system is a computer system built into a larger device to perform a specific function. Unlike general-purpose computers, embedded systems are designed for dedicated tasks. Examples include washing machines, microwave ovens, traffic lights, and digital cameras.",
-
-questions: [
-{ question: "An embedded system is designed to:", options: ["Perform many tasks", "Run office software", "Carry out a specific function", "Store large amounts of data"], answer: 2 },
-{ question: "Which of the following is an embedded system?", options: ["Desktop computer", "Laptop", "Washing machine controller", "Tablet"], answer: 2 },
-{ question: "Embedded systems are usually:", options: ["General-purpose", "Dedicated-purpose", "Cloud-based", "Portable only"], answer: 1 },
-{ question: "Which feature is common in embedded systems?", options: ["Large storage", "Specific task design", "Keyboard input", "Monitor output"], answer: 1 },
-{ question: "Embedded systems are often found in:", options: ["Home appliances", "Data centres", "Programming labs", "Office desktops"], answer: 0 }]
-    }
 ];
+
 
 export default topics;
 
