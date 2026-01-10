@@ -1,8 +1,23 @@
 export default function TopicList({ topics, onStart }) {
   return (
     <div>
-      <h1>Revise with me- Computer (Hardware)</h1>
-      <h4>Computer hardware refers to the physical and tangible components of a computer system that can be seen and touched. It includes devices used for input, processing, storage, output, and communication, such as the keyboard, mouse, system unit, monitor, storage devices, and network equipment. Hardware works together with software to perform tasks and process data in a computer system</h4>
+
+      <h1>Revise with me- Computer (Data Transmission)</h1>
+      <h4>Data transmission is the process of sending data from one device to another through a communication channel.
+
+In computing and networking, it involves converting data into signals and transferring them from a sender to a receiver using either wired or wireless media.
+
+Key points:
+
+Data can be transmitted as electrical signals, light pulses, or radio waves.
+
+Transmission may occur over short distances (e.g. keyboard to computer) or long distances (e.g. over the internet)
+
+It is essential for computer networks, the internet, mobile communication, and data sharing.
+
+Simple example:
+
+When you send a message on WhatsApp, your phone transmits data over wireless networks to the recipient’s phone.</h4>
       <h2>Select a Topic:</h2>
       <ul className="topic-list">
         {topics.map((topic,i)=>(
