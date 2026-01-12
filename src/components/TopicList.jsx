@@ -1,23 +1,11 @@
 export default function TopicList({ topics, onStart }) {
   return (
     <div>
-
+      
+      <h6>A revision module for IGSCE,GCSE & SSCE</h6>
       <h1>Revise with me- Computer (Data Transmission)</h1>
-      <h4>Data transmission is the process of sending data from one device to another through a communication channel.
-
-In computing and networking, it involves converting data into signals and transferring them from a sender to a receiver using either wired or wireless media.
-
-Key points:
-
-Data can be transmitted as electrical signals, light pulses, or radio waves.
-
-Transmission may occur over short distances (e.g. keyboard to computer) or long distances (e.g. over the internet)
-
-It is essential for computer networks, the internet, mobile communication, and data sharing.
-
-Simple example:
-
-When you send a message on WhatsApp, your phone transmits data over wireless networks to the recipient’s phone.</h4>
+      <h4>Encryption and Error Detection
+ is the process of converting plaintext into ciphertext to protect data from unauthorised access. In asymmetric encryption, different keys are used for encryption and decryption, while symmetric encryption uses the same key at both ends. Error detection methods are used to identify mistakes during data entry or transmission. These include parity checks, check digits, checksums, and Automatic Repeat Request (ARQ), which improve data accuracy and reliability.</h4>
       <h2>Select a Topic:</h2>
       <ul className="topic-list">
         {topics.map((topic,i)=>(
