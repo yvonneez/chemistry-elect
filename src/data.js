@@ -1,128 +1,318 @@
 const topics = [
+  {
+    title: "Ionic Bonding",
+    summary:
+      "Ionic bonding occurs when electrons are transferred from a metal atom to a non-metal atom. This forms positively charged ions (cations) and negatively charged ions (anions). The oppositely charged ions are held together by strong electrostatic forces of attraction, forming a giant ionic lattice. Ionic compounds usually have high melting points and conduct electricity when molten or dissolved in water.",
+    questions: [
+      {
+        question: "Ionic bonding involves the transfer of:",
+        options: ["Protons", "Neutrons", "Electrons", "Nuclei"],
+        answer: 2
+      },
+      {
+        question: "Which type of elements form ionic bonds?",
+        options: [
+          "Metal and metal",
+          "Non-metal and non-metal",
+          "Metal and non-metal",
+          "Noble gases only"
+        ],
+        answer: 2
+      },
+      {
+        question: "What holds ions together in an ionic compound?",
+        options: [
+          "Weak intermolecular forces",
+          "Covalent bonds",
+          "Electrostatic attraction",
+          "Magnetic forces"
+        ],
+        answer: 2
+      },
+      {
+        question: "Why do ionic compounds have high melting points?",
+        options: [
+          "They contain large atoms",
+          "They have weak bonds",
+          "Strong forces between ions",
+          "They are soluble in water"
+        ],
+        answer: 2
+      },
+      {
+        question: "When can ionic compounds conduct electricity?",
+        options: [
+          "When solid only",
+          "When molten or dissolved",
+          "When cold",
+          "Never"
+        ],
+        answer: 1
+      }
+    ]
+  },
 
-{
-title: "Types and Methods of Data Transmission",
-summary:
-"Data transmission is the process of sending data from one device to another through a communication channel. Data can be transmitted using serial transmission, where bits are sent one at a time, or parallel transmission, where multiple bits are sent simultaneously. Transmission methods include simplex (one-way communication), half-duplex (two-way but not at the same time), and full-duplex (two-way at the same time). Data can also be transmitted using wired media such as copper cables and fibre optics, or wireless media such as radio waves and microwaves.",
-questions: [
-{ question: "What is serial transmission?", options: ["Sending multiple bits at once", "Sending one bit at a time", "Wireless transmission only", "Transmission without cables"], answer: 1 },
-{ question: "Which transmission method allows data flow in both directions at the same time?", options: ["Simplex", "Half-duplex", "Full-duplex", "Serial"], answer: 2 },
-{ question: "Parallel transmission uses:", options: ["One wire only", "Multiple wires at once", "Wireless signals", "Radio waves"], answer: 1 },
-{ question: "Which of the following is an example of wireless transmission?", options: ["Fibre optic cable", "Ethernet cable", "Radio waves", "USB cable"], answer: 2 },
-{ question: "Simplex transmission means data flows:", options: ["Both ways simultaneously", "Both ways alternately", "In one direction only", "Only wirelessly"], answer: 2 }
-]
-},
+  {
+    title: "Covalent Bonding",
+    summary:
+      "Covalent bonding occurs when atoms share pairs of electrons. This type of bonding usually happens between non-metal atoms. Covalent substances can exist as small molecules or giant covalent structures. Substances with simple molecules often have low melting and boiling points, while giant covalent structures have very high melting points.",
+    questions: [
+      {
+        question: "Covalent bonding involves:",
+        options: [
+          "Transfer of electrons",
+          "Sharing of electrons",
+          "Loss of neutrons",
+          "Movement of protons"
+        ],
+        answer: 1
+      },
+      {
+        question: "Which elements usually form covalent bonds?",
+        options: [
+          "Metals only",
+          "Metals and non-metals",
+          "Non-metals only",
+          "Noble gases only"
+        ],
+        answer: 2
+      },
+      {
+        question: "Why do simple covalent molecules have low melting points?",
+        options: [
+          "Strong covalent bonds",
+          "Weak intermolecular forces",
+          "High density",
+          "Electrical conductivity"
+        ],
+        answer: 1
+      },
+      {
+        question: "Which is an example of a giant covalent structure?",
+        options: ["Water", "Carbon dioxide", "Diamond", "Oxygen"],
+        answer: 2
+      },
+      {
+        question: "Do covalent compounds usually conduct electricity?",
+        options: ["Yes, always", "Only when molten", "No", "Only when solid"],
+        answer: 2
+      }
+    ]
+  },
 
-{
-title: "Methods of Error Detection",
-summary:
-"Error detection methods are used to identify whether data has been corrupted during transmission. A parity check adds an extra bit to ensure the number of 1s is even or odd. A checksum generates a value based on the data and sends it along for comparison at the receiving end. Automatic Repeat Request (ARQ) detects errors and requests that corrupted data be retransmitted, improving data accuracy and reliability.",
-questions: [
-{ question: "What is the main purpose of error detection?", options: ["Increase speed", "Reduce file size", "Detect corrupted data", "Encrypt data"], answer: 2 },
-{ question: "Parity check works by adding:", options: ["An extra byte", "An extra bit", "A secret key", "A checksum"], answer: 1 },
-{ question: "Which method asks for data to be resent if an error is found?", options: ["Checksum", "Parity check", "ARQ", "Encryption"], answer: 2 },
-{ question: "Checksum is used to:", options: ["Encrypt data", "Compress files", "Compare data values", "Increase bandwidth"], answer: 2 },
-{ question: "Error detection mainly improves:", options: ["Security", "Data accuracy", "Transmission speed", "Storage size"], answer: 1 }
-]
-},
+  {
+    title: "Metallic Bonding",
+    summary:
+      "Metallic bonding occurs in metals and consists of a lattice of positive metal ions surrounded by a sea of delocalised electrons. The strong attraction between the positive ions and the delocalised electrons holds the structure together. Metallic bonding explains why metals conduct electricity, are malleable, ductile, and have high melting points.",
+    questions: [
+      {
+        question: "Metallic bonding consists of metal ions and:",
+        options: [
+          "Shared protons",
+          "Delocalised electrons",
+          "Negative ions",
+          "Covalent bonds"
+        ],
+        answer: 1
+      },
+      {
+        question: "Why do metals conduct electricity?",
+        options: [
+          "They contain ions",
+          "They have high density",
+          "Delocalised electrons can move",
+          "They are solid"
+        ],
+        answer: 2
+      },
+      {
+        question: "Which property is explained by metallic bonding?",
+        options: [
+          "Low melting point",
+          "Solubility in water",
+          "Malleability",
+          "Transparency"
+        ],
+        answer: 2
+      },
+      {
+        question: "What happens to metallic bonding when heated?",
+        options: [
+          "Electrons stop moving",
+          "Bonding becomes stronger",
+          "Ions vibrate more",
+          "Metal becomes ionic"
+        ],
+        answer: 2
+      },
+      {
+        question: "Which substance shows metallic bonding?",
+        options: ["Sodium", "Water", "Carbon dioxide", "Oxygen"],
+        answer: 0
+      }
+    ]
+  },
 
-{
-title: "Symmetric and Asymmetric Encryption",
-summary:
-"Encryption is used to protect data from unauthorised access during transmission. Symmetric encryption uses the same key to encrypt and decrypt data, making it fast but requiring secure key sharing. Asymmetric encryption uses two keys: a public key for encryption and a private key for decryption. While asymmetric encryption is more secure for key exchange, it is slower than symmetric encryption.",
-questions: [
-{ question: "Which encryption method uses one key?", options: ["Asymmetric encryption", "Symmetric encryption", "Hashing", "Encoding"], answer: 1 },
-{ question: "Asymmetric encryption uses:", options: ["One key", "Two keys", "No keys", "Multiple shared keys"], answer: 1 },
-{ question: "Which key is shared openly in asymmetric encryption?", options: ["Private key", "Secret key", "Public key", "Master key"], answer: 2 },
-{ question: "Which encryption method is generally faster?", options: ["Asymmetric", "Symmetric", "Both are equal", "Neither"], answer: 1 },
-{ question: "The main purpose of encryption is to provide:", options: ["Compression", "Confidentiality", "Faster transmission", "Error detection"], answer: 1 }
-]
-},
-{
-title: "Encryption and Error Detection",
-summary:
-"Encryption is the process of converting plaintext into ciphertext to protect data from unauthorised access. In asymmetric encryption, different keys are used for encryption and decryption, while symmetric encryption uses the same key at both ends. Error detection methods are used to identify mistakes during data entry or transmission. These include parity checks, check digits, checksums, and Automatic Repeat Request (ARQ), which improve data accuracy and reliability.",
-questions: [
-{ question:  "When carrying out asymmetric encryption, which of the following must keep the private key?", options: ["The sender", "The receiver", "Both sender and receiver", "All recipients of the message","None of the above"], answer: 0 },
-{ question: "In encryption, which of the following is the term used to describe the message before it is encrypted?",
-options: ["Simpletext","Plaintext", "Context", "Ciphertext", "Firsttext"], answer: 1 },
-{
-question: "Which of the following is the biggest disadvantage of using symmetric encryption?",
-options: [
-"It is very complex and time consuming",
-"It is rarely used anymore",
-"The value of the key reads the same in both directions",
-"It only works on computers with older operating systems",
-"There is a security problem when transmitting the encryption key"
-],
-answer: 4
-},
+  {
+    title: "Properties of Ionic and Covalent Substances",
+    questions: [
+      {
+        question: "Why do ionic compounds usually have high melting points?",
+        options: [
+          "They contain strong covalent bonds",
+          "They have weak intermolecular forces",
+          "They have strong electrostatic attractions between ions",
+          "They consist of small molecules"
+        ],
+        answer: 2
+      },
+      {
+        question: "Which substance is most likely to conduct electricity when molten?",
+        options: [
+          "Diamond",
+          "Sodium chloride",
+          "Carbon dioxide",
+          "Water"
+        ],
+        answer: 1
+      },
+      {
+        question: "Why does diamond have a very high melting point?",
+        options: [
+          "It has weak forces between molecules",
+          "It contains ions",
+          "It has a giant covalent structure",
+          "It contains delocalised electrons"
+        ],
+        answer: 2
+      },
+      {
+        question: "Which property explains why graphite can conduct electricity?",
+        options: [
+          "Strong covalent bonds",
+          "Delocalised electrons",
+          "High density",
+          "Ionic bonding"
+        ],
+        answer: 1
+      },
+      {
+        question: "Which type of bonding is found in sodium chloride?",
+        options: [
+          "Covalent",
+          "Metallic",
+          "Hydrogen",
+          "Ionic"
+        ],
+        answer: 3
+      }
+    ]
+  },
 
-{
-question: "Which of the following is the correct name for a form of encryption in which both the sender and the recipient use the same key to encrypt and decrypt?",
-options: [
-"Symmetric key encryption",
-"Asymmetric key encryption",
-"Public key encryption",
-"Same key encryption",
-"Block cipher encryption"
-],
-answer: 0
-},
+  {
+    title: "Comparing Diamond and Graphite",
+    questions: [
+      {
+        question: "Diamond and graphite are both forms of:",
+        options: [
+          "Iron",
+          "Carbon",
+          "Silicon",
+          "Sulphur"
+        ],
+        answer: 1
+      },
+      {
+        question: "Why is graphite soft and slippery?",
+        options: [
+          "It has weak forces between layers",
+          "It has strong ionic bonds",
+          "It contains metal ions",
+          "It melts easily"
+        ],
+        answer: 0
+      },
+      {
+        question: "Which structure does diamond have?",
+        options: [
+          "Simple molecular",
+          "Giant ionic",
+          "Giant covalent",
+          "Metallic lattice"
+        ],
+        answer: 2
+      },
+      {
+        question: "Which form of carbon is used as a lubricant?",
+        options: [
+          "Diamond",
+          "Graphite",
+          "Fullerene",
+          "Carbon dioxide"
+        ],
+        answer: 1
+      },
+      {
+        question: "Why does diamond not conduct electricity?",
+        options: [
+          "It contains ions",
+          "It has no free electrons",
+          "It has weak bonds",
+          "It melts easily"
+        ],
+        answer: 1
+      }
+    ]
+  },
 
-{
-question: "What do we call the final number in a code, which is calculated from the numbers in the code and is used to find errors in data entry?",
-options: [
-"Parity check",
-"Checksum",
-"Cyclic redundancy check",
-"Parity bit",
-"Check digit"
-],
-answer: 4
-},
-
-{
-question: "Which of the following is a form of error detection that makes use of acknowledgements and timers?",
-options: [
-"Automatic repeat request",
-"Echo check",
-"Check digit",
-"Parity bit",
-"Cyclic redundancy check"
-],
-answer: 0
-},
-
-{
-question: "Which of the following methods uses an extra bit added to a byte to ensure it contains an even number of 1s or an odd number of 1s?",
-options: [
-"Cyclic redundancy check",
-"Parity check",
-"Checksum",
-"Check digit",
-"Echo check"
-],
-answer: 1
-},
-
-{
-question: "Which of the following uses a calculated value which is sent after a block of data, and the receiving computer also calculates the value and compares the results?",
-options: [
-"Parity check",
-"Check digit",
-"Packet switching",
-"Checksum",
-"Automatic repeat request"
-],
-answer: 3
-},
-
-
-]
-},
-
+  {
+    title: "Ions and Chemical Formulae",
+    questions: [
+      {
+        question: "What charge does a magnesium ion have?",
+        options: ["+1", "+2", "-1", "-2"],
+        answer: 1
+      },
+      {
+        question: "What is the formula of magnesium chloride?",
+        options: ["MgCl", "MgCl₂", "Mg₂Cl", "Mg₂Cl₂"],
+        answer: 1
+      },
+      {
+        question: "Which ion is present in calcium fluoride?",
+        options: [
+          "Ca⁺",
+          "Ca²⁺",
+          "F⁺",
+          "F²⁺"
+        ],
+        answer: 1
+      },
+      {
+        question: "What is the correct formula for aluminium oxide?",
+        options: [
+          "AlO",
+          "Al₂O",
+          "Al₂O₃",
+          "Al₃O₂"
+        ],
+        answer: 2
+      },
+      {
+        question: "Why do ionic compounds form regular lattice structures?",
+        options: [
+          "Atoms share electrons",
+          "Oppositely charged ions attract",
+          "Electrons are delocalised",
+          "Weak forces hold molecules together"
+        ],
+        answer: 1
+      }
+    ]
+  },
+  
 ];
+
 export default topics;
 
 

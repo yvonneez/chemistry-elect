@@ -3,9 +3,11 @@ export default function TopicList({ topics, onStart }) {
     <div>
       
       <h6>A revision module for IGSCE,GCSE & SSCE</h6>
-      <h1>Revise with me- Computer (Data Transmission)</h1>
-      <h4>Encryption and Error Detection
- is the process of converting plaintext into ciphertext to protect data from unauthorised access. In asymmetric encryption, different keys are used for encryption and decryption, while symmetric encryption uses the same key at both ends. Error detection methods are used to identify mistakes during data entry or transmission. These include parity checks, check digits, checksums, and Automatic Repeat Request (ARQ), which improve data accuracy and reliability.</h4>
+      <h1>Revise with me- Chemistry (Bonding and structure)</h1>
+      <h4>Bonding in chemistry is the attractive force that holds particles together in a compound or molecule. Atoms bond in order to achieve a stable electronic arrangement, usually by:
+losing electrons,
+gaining electrons,
+or sharing electrons.</h4>
       <h2>Select a Topic:</h2>
       <ul className="topic-list">
         {topics.map((topic,i)=>(
