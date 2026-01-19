@@ -3,8 +3,8 @@ export default function TopicList({ topics, onStart }) {
     <div>
       
       <h6>A revision module for IGSCE,GCSE & SSCE</h6>
-      <h1>Revise with me- Physics (Waves)</h1>
-      <h4>A wave is a vibration or oscillation that travels through a medium or space, transferring energy but not matter.</h4>
+      <h1>Revise with me- Chemistry (states of matter)</h1>
+      <h4>Matter exists in different physical forms known as states of matter. The three main states are solid, liquid, and gas. The behavior of these states is explained by the kinetic particle theory, which states that all matter is made of tiny particles in constant motion.</h4>
       <h2>Select a Topic:</h2>
       <ul className="topic-list">
         {topics.map((topic,i)=>(
