@@ -2,7 +2,7 @@ const topics = [
    {
     title: "Speed",
     summary:
-      "Speed is the distance travelled per unit time. It is a scalar quantity and does not consider direction. In the Physics app, this concept is introduced with a simple definition, formula, worked examples, and quiz-based self-assessment to reinforce understanding.",
+      "Speed is the distance travelled per unit time. It is a scalar quantity and does not consider direction. ",
     questions: [
       { question:"Speed is?", options:["Distance × time","Distance ÷ time","Time ÷ distance"], answer:1 },
       { question:"Speed is a?", options:["Vector","Scalar","Force"], answer:1 },
@@ -15,7 +15,7 @@ const topics = [
   {
     title: "Velocity",
     summary:
-      "Velocity is the speed of an object in a given direction. Unlike speed, velocity is a vector quantity. This topic shows how directional understanding is introduced gradually using examples and quizzes in the Physics app format.",
+      "Velocity is the speed of an object in a given direction. Unlike speed, velocity is a vector quantity. ",
     questions: [
       { question:"Velocity is?", options:["Speed only","Speed with direction","Distance only"], answer:1 },
       { question:"Velocity is a?", options:["Scalar","Vector","Unit"], answer:1 },
@@ -28,7 +28,7 @@ const topics = [
   {
     title: "Acceleration",
     summary:
-      "Acceleration is the rate of change of velocity with time. It occurs when an object changes speed, direction, or both. In the app, acceleration is explained using formulas, graphs, and quiz questions for mastery learning.",
+      "Acceleration is the rate of change of velocity with time. It occurs when an object changes speed, direction, or both.",
     questions: [
       { question:"Acceleration is change in?", options:["Speed","Velocity","Distance"], answer:1 },
       { question:"Acceleration occurs when?", options:["Velocity is constant","Velocity changes","Object stops"], answer:1 },
@@ -41,7 +41,7 @@ const topics = [
   {
     title: "Distance–Time Graph",
     summary:
-      "A distance–time graph shows how distance changes with time. The gradient of the graph represents speed. This topic demonstrates how graphical interpretation skills are embedded into the Physics app learning structure.",
+      "A distance–time graph shows how distance changes with time. The gradient of the graph represents speed. ",
     questions: [
       { question:"Distance–time graph shows?", options:["Speed change","Distance vs time","Acceleration vs time"], answer:1 },
       { question:"Gradient represents?", options:["Acceleration","Speed","Distance"], answer:1 },
@@ -55,7 +55,7 @@ const topics = [
   {
     title: "Speed–Time Graph",
     summary:
-      "A speed–time graph shows how speed changes with time. The gradient represents acceleration, while the area under the graph represents distance travelled. This topic highlights higher-order thinking skills developed through the app.",
+      "A speed–time graph shows how speed changes with time. The gradient represents acceleration, while the area under the graph represents distance travelled.",
     questions: [
       { question:"Speed–time graph gradient gives?", options:["Speed","Acceleration","Distance"], answer:1 },
       { question:"Area under graph gives?", options:["Speed","Distance","Acceleration"], answer:1 },
