@@ -1,85 +1,165 @@
 const topics = [
-   {
-    title: "Speed",
-    summary:
-      "Speed is the distance travelled per unit time. It is a scalar quantity and does not consider direction. ",
-    questions: [
-      { question:"Speed is?", options:["Distance × time","Distance ÷ time","Time ÷ distance"], answer:1 },
-      { question:"Speed is a?", options:["Vector","Scalar","Force"], answer:1 },
-      { question:"SI unit of speed?", options:["m","m/s","kg"], answer:1 },
-      { question:"Speed does not include?", options:["Distance","Time","Direction"], answer:2 },
-      { question:"Speed measures how?", options:["Fast an object moves","Heavy an object is","Large an object is"], answer:0 }
-    ]
-  },
-
-  {
-    title: "Velocity",
-    summary:
-      "Velocity is the speed of an object in a given direction. Unlike speed, velocity is a vector quantity. ",
-    questions: [
-      { question:"Velocity is?", options:["Speed only","Speed with direction","Distance only"], answer:1 },
-      { question:"Velocity is a?", options:["Scalar","Vector","Unit"], answer:1 },
-      { question:"Which includes direction?", options:["Speed","Velocity","Distance"], answer:1 },
-      { question:"SI unit of velocity?", options:["m/s","m","s"], answer:0 },
-      { question:"Changing direction affects?", options:["Speed only","Velocity","Distance"], answer:1 }
-    ]
-  },
-
-  {
-    title: "Acceleration",
-    summary:
-      "Acceleration is the rate of change of velocity with time. It occurs when an object changes speed, direction, or both.",
-    questions: [
-      { question:"Acceleration is change in?", options:["Speed","Velocity","Distance"], answer:1 },
-      { question:"Acceleration occurs when?", options:["Velocity is constant","Velocity changes","Object stops"], answer:1 },
-      { question:"Formula for acceleration?", options:["v/t","(v−u)/t","s/t"], answer:1 },
-      { question:"SI unit of acceleration?", options:["m/s","m/s²","kg"], answer:1 },
-      { question:"Deceleration is?", options:["Negative acceleration","Zero speed","Constant motion"], answer:0 }
-    ]
-  },
-
-  {
-    title: "Distance–Time Graph",
-    summary:
-      "A distance–time graph shows how distance changes with time. The gradient of the graph represents speed. ",
-    questions: [
-      { question:"Distance–time graph shows?", options:["Speed change","Distance vs time","Acceleration vs time"], answer:1 },
-      { question:"Gradient represents?", options:["Acceleration","Speed","Distance"], answer:1 },
-      { question:"Straight line graph means?", options:["Changing speed","Constant speed","No motion"], answer:1 },
-      { question:"Horizontal line shows?", options:["Constant speed","At rest","Acceleration"], answer:1 },
-      { question:"Steeper graph means?", options:["Slower speed","Higher speed","No movement"], answer:1 }
+   
     
-    ]
-  },
+    
+      {
+        title: "Computer Security",
+        summary:
+          "Computer security involves protecting computer systems, networks, and data from unauthorized access, damage, or theft. Security measures are used to ensure confidentiality (data is private), integrity (data is accurate), and availability (data is accessible when needed). Common security threats include malware, hacking, phishing, and unauthorized access.",
 
-  {
-    title: "Speed–Time Graph",
-    summary:
-      "A speed–time graph shows how speed changes with time. The gradient represents acceleration, while the area under the graph represents distance travelled.",
-    questions: [
-      { question:"Speed–time graph gradient gives?", options:["Speed","Acceleration","Distance"], answer:1 },
-      { question:"Area under graph gives?", options:["Speed","Distance","Acceleration"], answer:1 },
-      { question:"Horizontal line means?", options:["Constant speed","No motion","Changing speed"], answer:0 },
-      { question:"Positive gradient shows?", options:["Deceleration","Acceleration","Rest"], answer:1 },
-      { question:"Negative gradient means?", options:["Acceleration","Deceleration","Constant speed"], answer:1 }
+        questions: [
+          {
+            question: "What is the main aim of computer security?",
+            options: [
+              "To make computers faster",
+              "To protect data and systems",
+              "To increase internet speed",
+              "To design websites"
+            ],
+            answer: 1
+          },
+          {
+            question: "Which of the following is a security threat?",
+            options: ["Firewall", "Antivirus", "Malware", "Password"],
+            answer: 2
+          },
+          {
+            question: "Which security principle ensures data is not altered?",
+            options: ["Confidentiality", "Integrity", "Availability", "Privacy"],
+            answer: 1
+          },
+          {
+            question: "What does a strong password help prevent?",
+            options: [
+              "Hardware failure",
+              "Unauthorized access",
+              "Slow performance",
+              "Power failure"
+            ],
+            answer:1
+          },
+          {
+            question: "Which software helps detect and remove viruses?",
+            options: ["Compiler", "Browser", "Antivirus", "Operating system"],
+            answer: 2
+          }
+        ]
+      },
+
+      {
+        title: "Computer Ethics",
+        summary:
+          "Computer ethics focuses on the responsible and acceptable use of technology. It includes respecting privacy, avoiding plagiarism, using software legally, and behaving responsibly online. Ethical computer users follow rules, respect others’ data, and avoid harmful activities such as hacking or spreading false information.",
+
+      questions: [
+          {
+            question: "What is computer ethics concerned with?",
+            options: [
+              "Computer speed",
+              "Moral use of computers",
+              "Hardware design",
+              "Internet cost"
+            ],
+            answer: 1
+          },
+          {
+            question: "Which of the following is unethical?",
+            options: [
+              "Citing sources",
+              "Using licensed software",
+              "Copying work without permission",
+              "Protecting passwords"
+            ],
+            answer: 2
+          },
+          {
+            question: "Using someone else’s work and claiming it as yours is called?",
+            options: ["Hacking", "Plagiarism", "Phishing", "Encryption"],
+            answer: 1
+          },
+          {
+            question: "Why should users respect privacy?",
+            options: [
+              "To slow down computers",
+              "To avoid learning",
+              "To protect personal information",
+              "To increase storage"
+            ],
+            answer: 2
+          },
+          {
+            question: "Which action shows ethical computer use?",
+            options: [
+              "Sharing passwords",
+              "Downloading pirated software",
+              "Using strong passwords",
+              "Accessing others’ files"
+            ],
+            answer: 2
+          }
+        ]
+      },
+
+      {
+        title: "Cyber Crimes",
+        summary:
+          "Cyber crimes are illegal activities carried out using computers or the internet. These crimes include hacking, identity theft, phishing, cyberbullying, software piracy, and online fraud. Cyber crimes can cause financial loss, data breaches, and emotional harm. Laws such as cybercrime acts exist to prevent and punish these offenses.",
+
+        questions: [
+          {
+            question: "What is a cyber crime?",
+            options: [
+              "A computer upgrade",
+              "An online game",
+              "An illegal activity using computers",
+              "A security tool"
+            ],
+            answer: 2
+          },
+          {
+            question: "Which of the following is an example of cyber crime?",
+            options: [
+              "Sending emails",
+              "Browsing the web",
+              "Identity theft",
+              "Installing software"
+            ],
+            answer: 2
+          },
+          {
+            question: "Phishing is best described as?",
+            options: [
+              "Protecting data",
+              "Tricking users to reveal personal information",
+              "Writing programs",
+              "Encrypting files"
+            ],
+            answer: 1
+          },
+          {
+            question: "Cyberbullying involves?",
+            options: [
+              "Online learning",
+              "Helping others online",
+              "Harassing someone using digital platforms",
+              "Installing antivirus"
+            ],
+            answer: 2
+          },
+          {
+            question: "Why are cyber crime laws important?",
+            options: [
+              "To increase internet speed",
+              "To stop computer manufacturing",
+              "To punish and prevent online crimes",
+              "To promote hacking"
+            ],
+            answer: 2
+          }
+        ]
+      }
     ]
   
-  },
-   {
-    title: "Acceleration of Free Fall",
-    summary:
-      "The acceleration of free fall is the constant acceleration experienced by an object falling under the influence of gravity alone. Near the Earth’s surface, this acceleration is approximately 9.8 m/s² and is represented by the symbol g. All objects fall with the same acceleration in the absence of air resistance.",
-    questions: [
-      { question:"Free fall occurs when an object is under?", options:["Air pressure only","Gravity only","Magnetism"], answer:1 },
-      { question:"Symbol for acceleration due to gravity?", options:["a","g","v"], answer:1 },
-      { question:"Value of g on Earth is about?", options:["9.8 m/s","9.8 m/s²","98 m/s²"], answer:1 },
-      { question:"In free fall, objects fall?", options:["At different rates","At the same rate","Depending on mass"], answer:1 },
-      { question:"Free fall ignores?", options:["Gravity","Air resistance","Time"], answer:1 }
-        
-    ]
-  },
-];
-
 export default topics;
 
 
