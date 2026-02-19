@@ -3,8 +3,8 @@ export default function TopicList({ topics, onStart }) {
     <div>
       
       <h6>A revision module for IGSCE,GCSE & SSCE</h6>
-      <h1>Revise with me- Computer (Computer Ethics)</h1>
-      <h4>Computer ethics refers to the moral principles and rules that guide the responsible use of computers, technology, and information systems. It helps users understand what is right and wrong when using digital devices, software, and the internet. Ethical computing promotes respect, privacy, security, and lawful behavior.</h4>
+      <h1>Revise with me- Computer Science (The Internet)</h1>
+      <h4>The Internet is a global network of connected computers that allows people around the world to communicate, share information, and access services. It enables activities like browsing websites, sending emails, using social media, streaming videos, and online learning.</h4>
       <h2>Select a Topic:</h2>
       <ul className="topic-list">
         {topics.map((topic,i)=>(
