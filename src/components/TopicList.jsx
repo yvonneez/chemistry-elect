@@ -3,7 +3,7 @@ export default function TopicList({ topics, onStart }) {
     <div>
       
       <h4>A revision module for IGSCE,GCSE & SSCE</h4>
-      <h1>Revise with me- Physics (Dimensions)</h1>
+      <h1>Revise with me- Physics (Elasticity)</h1>
            <h2>Select a Topic:</h2>
       <ul className="topic-list">
         {topics.map((topic,i)=>(
