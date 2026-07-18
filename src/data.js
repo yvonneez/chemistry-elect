@@ -1,83 +1,177 @@
 const topics = [
   {
-    title: "Fundamental and Derived Quantities and Units",
+    title: "Introduction to Physics",
     summary:
-      "Physical quantities are measurable properties of matter and energy. They are classified into fundamental (base) quantities, which are independent, and derived quantities, which are obtained by combining fundamental quantities mathematically. The International System of Units (SI) provides standard units for measuring these quantities, ensuring uniformity in scientific measurements worldwide.",
+      "Physics is the branch of science that studies matter, energy, motion, forces, and the interactions between them. It helps us understand natural phenomena and has led to many technological inventions that improve our daily lives. Great scientists such as Isaac Newton, Albert Einstein, Michael Faraday, Galileo Galilei, James Clerk Maxwell, Alessandro Volta, and James Watt laid the foundation for modern science through their discoveries and inventions.",
+
     questions: [
       {
-        question: "Which of the following is a fundamental physical quantity?",
-        options: ["Force", "Mass", "Pressure"],
+        question: "What is Physics?",
+        options: [
+          "The study of living things",
+          "The study of matter, energy and their interactions",
+          "The study of chemicals",
+          "The study of plants"
+        ],
         answer: 1
       },
       {
-        question: "The SI unit of electric current is:",
-        options: ["Volt", "Ampere", "Ohm"],
-        answer: 1
-      },
-      {
-        question: "Which of the following is a derived quantity?",
-        options: ["Time", "Temperature", "Density"],
+        question: "Which of the following is NOT a branch of Physics?",
+        options: [
+          "Mechanics",
+          "Optics",
+          "Genetics",
+          "Thermodynamics"
+        ],
         answer: 2
       },
       {
-        question: "The SI unit of length is:",
-        options: ["Kilogram", "Metre", "Second"],
+        question: "Who is popularly known as the father of Classical Physics?",
+        options: [
+          "Albert Einstein",
+          "Isaac Newton",
+          "Michael Faraday",
+          "Galileo Galilei"
+        ],
         answer: 1
       },
       {
-        question: "Which of the following is NOT a fundamental quantity?",
-        options: ["Amount of substance", "Force", "Luminous intensity"],
+        question: "Who is regarded as the father of Modern Physics?",
+        options: [
+          "James Clerk Maxwell",
+          "Albert Einstein",
+          "J.J. Thomson",
+          "Niels Bohr"
+        ],
         answer: 1
       },
       {
-        question: "The SI unit of force is:",
-        options: ["Joule", "Newton", "Pascal"],
+        question: "Which scientist discovered electromagnetic induction?",
+        options: [
+          "Michael Faraday",
+          "Thomas Edison",
+          "James Watt",
+          "Archimedes"
+        ],
+        answer: 0
+      }
+    ]
+  },
+
+  {
+    title: "Founding Fathers of Physics and Their Inventions",
+    summary:
+      "Many scientists made remarkable discoveries that transformed science and technology. Isaac Newton formulated the laws of motion and universal gravitation. Galileo Galilei improved the telescope and pioneered experimental science. Michael Faraday discovered electromagnetic induction, leading to electric generators. Alessandro Volta invented the first electric battery, James Watt improved the steam engine, James Clerk Maxwell developed the electromagnetic theory, Albert Einstein developed the theory of relativity, Wilhelm Röntgen discovered X-rays, and J.J. Thomson discovered the electron.",
+
+    questions: [
+      {
+        question: "Who invented the first electric battery?",
+        options: [
+          "Michael Faraday",
+          "Alessandro Volta",
+          "James Watt",
+          "Thomas Edison"
+        ],
         answer: 1
       },
       {
-        question: "Velocity is obtained by dividing:",
-        options: ["Distance by Time", "Mass by Volume", "Force by Area"],
-        answer: 0
-      },
-      {
-        question: "Which fundamental quantity has the SI unit Kelvin?",
-        options: ["Temperature", "Mass", "Time"],
-        answer: 0
-      },
-      {
-        question: "Pressure is measured in:",
-        options: ["Newton", "Pascal", "Watt"],
+        question: "Which invention is James Watt famous for improving?",
+        options: [
+          "Electric motor",
+          "Steam engine",
+          "Battery",
+          "Telephone"
+        ],
         answer: 1
       },
       {
-        question: "Which of the following has the SI unit kilogram per cubic metre (kg/m³)?",
-        options: ["Density", "Power", "Momentum"],
-        answer: 0
-      },
-      {
-        question: "The SI unit of power is:",
-        options: ["Joule", "Watt", "Newton"],
+        question: "Who discovered X-rays?",
+        options: [
+          "Albert Einstein",
+          "Wilhelm Röntgen",
+          "J.J. Thomson",
+          "Niels Bohr"
+        ],
         answer: 1
       },
       {
-        question: "Which pair consists entirely of fundamental quantities?",
-        options: ["Mass and Time", "Force and Energy", "Pressure and Density"],
+        question: "Who discovered the electron?",
+        options: [
+          "Isaac Newton",
+          "J.J. Thomson",
+          "Michael Faraday",
+          "James Clerk Maxwell"
+        ],
+        answer: 1
+      },
+      {
+        question: "Who developed the electromagnetic theory of light?",
+        options: [
+          "James Clerk Maxwell",
+          "Galileo Galilei",
+          "Archimedes",
+          "Ernest Rutherford"
+        ],
+        answer: 0
+      }
+    ]
+  },
+
+  {
+    title: "Importance and Applications of Physics",
+    summary:
+      "Physics contributes greatly to transportation, communication, medicine, engineering, agriculture, construction, and space exploration. Knowledge of Physics has led to inventions such as electric generators, X-ray machines, telecommunication systems, satellites, computers, lasers, and modern medical equipment. Understanding Physics helps us solve real-life problems and improve technology.",
+
+    questions: [
+      {
+        question: "Which of the following is an application of Physics in medicine?",
+        options: [
+          "X-ray imaging",
+          "Photosynthesis",
+          "Digestion",
+          "Fermentation"
+        ],
         answer: 0
       },
       {
-        question: "The SI unit of area is:",
-        options: ["Square metre (m²)", "Cubic metre (m³)", "Metre per second (m/s)"],
+        question: "Physics contributes greatly to which of the following?",
+        options: [
+          "Transportation",
+          "Communication",
+          "Medicine",
+          "All of the above"
+        ],
+        answer: 3
+      },
+      {
+        question: "Which instrument is used to measure temperature?",
+        options: [
+          "Thermometer",
+          "Ammeter",
+          "Voltmeter",
+          "Barometer"
+        ],
         answer: 0
       },
       {
-        question: "Energy is measured in:",
-        options: ["Joule", "Pascal", "Ampere"],
-        answer: 0
+        question: "The internationally accepted system of units is called",
+        options: [
+          "CGS",
+          "FPS",
+          "SI",
+          "MKS"
+        ],
+        answer: 2
       },
       {
-        question: "Which of the following quantities is derived from mass, length, and time?",
-        options: ["Force", "Temperature", "Luminous intensity"],
-        answer: 0
+        question: "The first step in scientific investigation is",
+        options: [
+          "Experiment",
+          "Observation",
+          "Conclusion",
+          "Theory"
+        ],
+        answer: 1
       }
     ]
   }
