@@ -1,177 +1,159 @@
 const topics = [
   {
-    title: "Introduction to Physics",
+    title: "Introduction to Chemistry",
     summary:
-      "Physics is the branch of science that studies matter, energy, motion, forces, and the interactions between them. It helps us understand natural phenomena and has led to many technological inventions that improve our daily lives. Great scientists such as Isaac Newton, Albert Einstein, Michael Faraday, Galileo Galilei, James Clerk Maxwell, Alessandro Volta, and James Watt laid the foundation for modern science through their discoveries and inventions.",
+      "Chemistry is the branch of science that studies matter, its composition, properties, and the changes it undergoes. The periodic table contains all known chemical elements arranged according to their atomic numbers. Students should know the names and symbols of the first 20 elements. Chemistry provides numerous career opportunities in medicine, engineering, education, environmental science, pharmacy, and research. It plays an important role in hospitals, agriculture, industries, and scientific research. Chemists use the scientific method—a systematic process involving observation, hypothesis, experimentation, analysis, and conclusion—to solve problems and make discoveries.",
 
     questions: [
       {
-        question: "What is Physics?",
+        question: "What is Chemistry?",
         options: [
           "The study of living things",
-          "The study of matter, energy and their interactions",
-          "The study of chemicals",
-          "The study of plants"
+          "The study of matter and the changes it undergoes",
+          "The study of the Earth and space",
+          "The study of energy only"
         ],
         answer: 1
       },
       {
-        question: "Which of the following is NOT a branch of Physics?",
+        question: "The periodic table contains:",
         options: [
-          "Mechanics",
-          "Optics",
-          "Genetics",
-          "Thermodynamics"
+          "All known elements",
+          "Only metals",
+          "Only gases",
+          "Only compounds"
+        ],
+        answer: 0
+      },
+      {
+        question: "How many elements should students know from the beginning of the periodic table?",
+        options: [
+          "10",
+          "15",
+          "20",
+          "25"
         ],
         answer: 2
       },
       {
-        question: "Who is popularly known as the father of Classical Physics?",
+        question: "Which of the following is the first element on the periodic table?",
         options: [
-          "Albert Einstein",
-          "Isaac Newton",
-          "Michael Faraday",
-          "Galileo Galilei"
+          "Helium",
+          "Hydrogen",
+          "Lithium",
+          "Carbon"
         ],
         answer: 1
       },
       {
-        question: "Who is regarded as the father of Modern Physics?",
+        question: "Which of the following is the chemical symbol for Oxygen?",
         options: [
-          "James Clerk Maxwell",
-          "Albert Einstein",
-          "J.J. Thomson",
-          "Niels Bohr"
+          "Og",
+          "O",
+          "Ox",
+          "Om"
         ],
         answer: 1
       },
       {
-        question: "Which scientist discovered electromagnetic induction?",
+        question: "Which of these is NOT one of the first 20 elements?",
         options: [
-          "Michael Faraday",
-          "Thomas Edison",
-          "James Watt",
-          "Archimedes"
+          "Calcium",
+          "Argon",
+          "Iron",
+          "Potassium"
         ],
-        answer: 0
-      }
-    ]
-  },
-
-  {
-    title: "Founding Fathers of Physics and Their Inventions",
-    summary:
-      "Many scientists made remarkable discoveries that transformed science and technology. Isaac Newton formulated the laws of motion and universal gravitation. Galileo Galilei improved the telescope and pioneered experimental science. Michael Faraday discovered electromagnetic induction, leading to electric generators. Alessandro Volta invented the first electric battery, James Watt improved the steam engine, James Clerk Maxwell developed the electromagnetic theory, Albert Einstein developed the theory of relativity, Wilhelm Röntgen discovered X-rays, and J.J. Thomson discovered the electron.",
-
-    questions: [
-      {
-        question: "Who invented the first electric battery?",
-        options: [
-          "Michael Faraday",
-          "Alessandro Volta",
-          "James Watt",
-          "Thomas Edison"
-        ],
-        answer: 1
+        answer: 2
       },
       {
-        question: "Which invention is James Watt famous for improving?",
+        question: "A career in chemistry can lead to becoming a:",
         options: [
-          "Electric motor",
-          "Steam engine",
-          "Battery",
-          "Telephone"
-        ],
-        answer: 1
-      },
-      {
-        question: "Who discovered X-rays?",
-        options: [
-          "Albert Einstein",
-          "Wilhelm Röntgen",
-          "J.J. Thomson",
-          "Niels Bohr"
-        ],
-        answer: 1
-      },
-      {
-        question: "Who discovered the electron?",
-        options: [
-          "Isaac Newton",
-          "J.J. Thomson",
-          "Michael Faraday",
-          "James Clerk Maxwell"
-        ],
-        answer: 1
-      },
-      {
-        question: "Who developed the electromagnetic theory of light?",
-        options: [
-          "James Clerk Maxwell",
-          "Galileo Galilei",
-          "Archimedes",
-          "Ernest Rutherford"
-        ],
-        answer: 0
-      }
-    ]
-  },
-
-  {
-    title: "Importance and Applications of Physics",
-    summary:
-      "Physics contributes greatly to transportation, communication, medicine, engineering, agriculture, construction, and space exploration. Knowledge of Physics has led to inventions such as electric generators, X-ray machines, telecommunication systems, satellites, computers, lasers, and modern medical equipment. Understanding Physics helps us solve real-life problems and improve technology.",
-
-    questions: [
-      {
-        question: "Which of the following is an application of Physics in medicine?",
-        options: [
-          "X-ray imaging",
-          "Photosynthesis",
-          "Digestion",
-          "Fermentation"
-        ],
-        answer: 0
-      },
-      {
-        question: "Physics contributes greatly to which of the following?",
-        options: [
-          "Transportation",
-          "Communication",
-          "Medicine",
+          "Pharmacist",
+          "Research scientist",
+          "Chemical engineer",
           "All of the above"
         ],
         answer: 3
       },
       {
-        question: "Which instrument is used to measure temperature?",
+        question: "Chemistry is useful in:",
         options: [
-          "Thermometer",
-          "Ammeter",
-          "Voltmeter",
-          "Barometer"
+          "Hospitals only",
+          "Agriculture only",
+          "Industries only",
+          "Hospitals, agriculture, industries, and research"
+        ],
+        answer: 3
+      },
+      {
+        question: "Which profession depends heavily on chemistry?",
+        options: [
+          "Doctor",
+          "Pharmacist",
+          "Food scientist",
+          "All of the above"
+        ],
+        answer: 3
+      },
+      {
+        question: "The scientific method is used to:",
+        options: [
+          "Guess answers",
+          "Solve problems systematically",
+          "Memorize facts",
+          "Draw diagrams only"
+        ],
+        answer: 1
+      },
+      {
+        question: "Which of the following is the first step in the scientific method?",
+        options: [
+          "Observation",
+          "Conclusion",
+          "Experiment",
+          "Analysis"
         ],
         answer: 0
       },
       {
-        question: "The internationally accepted system of units is called",
+        question: "After making observations, a scientist usually forms a:",
         options: [
-          "CGS",
-          "FPS",
-          "SI",
-          "MKS"
+          "Law",
+          "Theory",
+          "Hypothesis",
+          "Formula"
         ],
         answer: 2
       },
       {
-        question: "The first step in scientific investigation is",
+        question: "Experiments are carried out mainly to:",
         options: [
-          "Experiment",
-          "Observation",
-          "Conclusion",
-          "Theory"
+          "Prove a hypothesis is always true",
+          "Test a hypothesis",
+          "Create new elements",
+          "Write conclusions"
         ],
         answer: 1
+      },
+      {
+        question: "Which of the following is an application of chemistry in agriculture?",
+        options: [
+          "Making fertilizers",
+          "Building bridges",
+          "Writing computer programs",
+          "Designing clothes"
+        ],
+        answer: 0
+      },
+      {
+        question: "Why is Chemistry important in everyday life?",
+        options: [
+          "It helps us understand matter and improve our quality of life",
+          "It is only useful in laboratories",
+          "It is only for scientists",
+          "It has no practical application"
+        ],
+        answer: 0
       }
     ]
   }
