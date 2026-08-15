@@ -1,57 +1,175 @@
 const topics = [
   {
-    title: "Chemical Industry",
+    title: "Matter",
     summary:
-      "The chemical industry is a branch of industry that uses chemical processes to transform raw materials into useful chemical products. It produces a wide range of substances used in agriculture, medicine, food production, construction, manufacturing, cosmetics, and many other areas of everyday life. Chemical industries may produce basic or heavy chemicals in large quantities or specialised fine chemicals in smaller quantities.",
+      "Matter is anything that has mass and occupies space. Matter exists as solids, liquids and gases and is made up of tiny particles.",
 
     questions: [
       {
-        question: "What is a chemical industry?",
+        question: "Which of the following best defines matter?",
         options: [
-          "An industry that only produces food",
-          "An industry that uses chemical processes to produce useful products",
-          "An industry that only produces machines",
-          "An industry that sells clothing"
+          "Anything that has mass and occupies space",
+          "Anything that can be seen",
+          "Anything that produces energy",
+          "Anything that can move"
+        ],
+        answer: 0
+      },
+      {
+        question: "Which of the following is an example of matter?",
+        options: [
+          "Air",
+          "Light",
+          "Sound",
+          "Heat"
+        ],
+        answer: 0
+      },
+      {
+        question: "Which state of matter has a fixed shape and fixed volume?",
+        options: [
+          "Solid",
+          "Liquid",
+          "Gas",
+          "Plasma"
+        ],
+        answer: 0
+      },
+      {
+        question: "Which state of matter has a fixed volume but takes the shape of its container?",
+        options: [
+          "Solid",
+          "Liquid",
+          "Gas",
+          "Vacuum"
         ],
         answer: 1
       },
       {
-        question: "Which of the following is an example of a chemical industry?",
+        question: "Which of the following is NOT a state of matter commonly studied at this level?",
         options: [
-          "Cement industry",
-          "Banking industry",
-          "Transport industry",
-          "Tourism industry"
+          "Solid",
+          "Liquid",
+          "Gas",
+          "Energy"
+        ],
+        answer: 3
+      }
+    ]
+  },
+
+  {
+    title: "Particulate Nature of Matter",
+    summary:
+      "The particulate nature of matter states that all matter is made up of very small particles. These particles are in constant motion and have spaces between them. Their arrangement and movement differ in solids, liquids and gases.",
+
+    questions: [
+      {
+        question: "According to the particulate theory, matter is made up of:",
+        options: [
+          "Tiny particles",
+          "Continuous sheets",
+          "Only atoms that cannot move",
+          "Energy waves only"
         ],
         answer: 0
       },
       {
-        question: "What is one major purpose of the chemical industry?",
+        question: "What is true about particles of matter?",
         options: [
-          "To produce useful chemical products",
-          "To provide transportation only",
-          "To build roads only",
-          "To sell electronic devices"
+          "They are always in motion",
+          "They never move",
+          "They can only move in gases",
+          "They are visible to the naked eye"
         ],
         answer: 0
       },
       {
-        question: "Which statement best describes the chemical industry?",
+        question: "Which state of matter has particles packed closely together in a regular arrangement?",
         options: [
-          "It changes raw materials into useful products using chemical processes",
-          "It only extracts minerals from the ground",
-          "It only manufactures vehicles",
-          "It only produces electricity"
+          "Solid",
+          "Liquid",
+          "Gas",
+          "Vapour"
         ],
         answer: 0
       },
       {
-        question: "Chemical industries are important because they provide products for which of the following?",
+        question: "Why can a gas be compressed easily?",
         options: [
-          "Only entertainment",
-          "Only transportation",
-          "Agriculture, medicine, manufacturing and many other sectors",
-          "Only sports"
+          "There are large spaces between its particles",
+          "Its particles have no mass",
+          "Its particles do not move",
+          "Its particles are joined together"
+        ],
+        answer: 0
+      },
+      {
+        question: "What happens to the movement of particles when a substance is heated?",
+        options: [
+          "The particles generally move faster",
+          "The particles stop moving",
+          "The particles disappear",
+          "The particles become massless"
+        ],
+        answer: 0
+      }
+    ]
+  },
+
+  {
+    title: "Physical and Chemical Changes",
+    summary:
+      "A physical change changes the form or state of a substance without producing a new substance. A chemical change produces one or more new substances with different properties.",
+
+    questions: [
+      {
+        question: "Which of the following is a physical change?",
+        options: [
+          "Melting of ice",
+          "Rusting of iron",
+          "Burning of wood",
+          "Cooking an egg"
+        ],
+        answer: 0
+      },
+      {
+        question: "Which of the following is a chemical change?",
+        options: [
+          "Cutting paper",
+          "Melting wax",
+          "Rusting of iron",
+          "Freezing water"
+        ],
+        answer: 2
+      },
+      {
+        question: "Which statement correctly describes a physical change?",
+        options: [
+          "No new substance is formed",
+          "A completely new substance is always formed",
+          "The chemical composition always changes",
+          "The substance cannot be changed back"
+        ],
+        answer: 0
+      },
+      {
+        question: "Which pair contains only physical changes?",
+        options: [
+          "Melting ice and boiling water",
+          "Rusting iron and burning wood",
+          "Cooking food and digestion",
+          "Burning paper and rusting iron"
+        ],
+        answer: 0
+      },
+      {
+        question: "Which pair contains only chemical changes?",
+        options: [
+          "Melting and freezing",
+          "Boiling and evaporation",
+          "Rusting and burning",
+          "Cutting and crushing"
         ],
         answer: 2
       }
@@ -59,58 +177,58 @@ const topics = [
   },
 
   {
-    title: "Types of Chemical Industries",
+    title: "Atoms, Molecules and Ions",
     summary:
-      "Chemical industries can be classified according to the types of products they manufacture and the processes they use. Examples include petrochemical industries, pharmaceutical industries, fertilizer industries, cement industries, soap and detergent industries, paint industries, food-processing industries, plastics industries, and textile industries. These industries produce materials and products that are essential for economic development and everyday living.",
+      "An atom is the smallest particle of an element that retains the chemical properties of that element. A molecule consists of two or more atoms chemically bonded together, while an ion is a charged particle formed when an atom or group of atoms gains or loses electrons.",
 
     questions: [
       {
-        question: "Which of the following is a type of chemical industry?",
+        question: "What is an atom?",
         options: [
-          "Pharmaceutical industry",
-          "Banking industry",
-          "Tourism industry",
-          "Postal industry"
+          "The smallest particle of an element that retains its chemical properties",
+          "A group of unrelated substances",
+          "A charged molecule only",
+          "A particle containing only electrons"
         ],
         answer: 0
       },
       {
-        question: "Which chemical industry produces medicines?",
+        question: "What is a molecule?",
         options: [
-          "Cement industry",
-          "Pharmaceutical industry",
-          "Petroleum refining industry",
-          "Paint industry"
+          "Two or more atoms chemically bonded together",
+          "A single proton",
+          "A charged electron",
+          "A single neutron"
+        ],
+        answer: 0
+      },
+      {
+        question: "What is an ion?",
+        options: [
+          "A charged particle",
+          "An uncharged atom only",
+          "A particle with no electrons",
+          "A molecule that cannot react"
+        ],
+        answer: 0
+      },
+      {
+        question: "An atom becomes a positive ion when it:",
+        options: [
+          "Gains electrons",
+          "Loses electrons",
+          "Gains neutrons",
+          "Loses protons"
         ],
         answer: 1
       },
       {
-        question: "Which industry produces fertilizers for agricultural use?",
+        question: "Which of the following is a molecule?",
         options: [
-          "Fertilizer industry",
-          "Textile industry",
-          "Automobile industry",
-          "Banking industry"
-        ],
-        answer: 0
-      },
-      {
-        question: "The production of soaps and detergents belongs mainly to the:",
-        options: [
-          "Soap and detergent industry",
-          "Mining industry",
-          "Construction industry",
-          "Telecommunication industry"
-        ],
-        answer: 0
-      },
-      {
-        question: "Which of the following industries is involved in producing plastics?",
-        options: [
-          "Plastic and polymer industry",
-          "Banking industry",
-          "Transport industry",
-          "Tourism industry"
+          "O₂",
+          "Na⁺",
+          "Ca²⁺",
+          "Li⁺"
         ],
         answer: 0
       }
@@ -118,58 +236,58 @@ const topics = [
   },
 
   {
-    title: "Importance of Chemical Industries",
+    title: "Sub-Atomic Particles",
     summary:
-      "Chemical industries play an important role in national development by producing materials required in agriculture, medicine, construction, manufacturing, transportation and household activities. They provide employment, generate income, support other industries and contribute to economic growth. Products such as fertilizers, medicines, plastics, paints, detergents, cement and fuels are all associated with chemical industries.",
+      "Atoms are made up of three main sub-atomic particles: protons, neutrons and electrons. Protons have a positive charge, electrons have a negative charge, and neutrons have no charge.",
 
     questions: [
       {
-        question: "Which of the following is an importance of chemical industries?",
+        question: "Which are the three main sub-atomic particles?",
         options: [
-          "They provide useful products",
-          "They prevent all industrial activities",
-          "They reduce the need for agriculture",
-          "They stop technological development"
+          "Protons, neutrons and electrons",
+          "Atoms, molecules and ions",
+          "Protons, atoms and ions",
+          "Electrons, molecules and neutrons"
         ],
         answer: 0
       },
       {
-        question: "Chemical industries contribute to the economy mainly by:",
+        question: "Which sub-atomic particle has a positive charge?",
         options: [
-          "Creating employment and producing useful goods",
-          "Stopping production",
-          "Reducing industrial activities",
-          "Preventing trade"
+          "Electron",
+          "Neutron",
+          "Proton",
+          "Ion"
         ],
-        answer: 0
+        answer: 2
       },
       {
-        question: "Which chemical industry product is especially important in agriculture?",
+        question: "Which sub-atomic particle has no electrical charge?",
         options: [
-          "Fertilizer",
-          "Paint",
-          "Perfume",
-          "Plastic toy"
+          "Proton",
+          "Electron",
+          "Neutron",
+          "Ion"
         ],
-        answer: 0
+        answer: 2
       },
       {
-        question: "Which chemical industry product is important in healthcare?",
+        question: "Which sub-atomic particle has a negative charge?",
         options: [
-          "Medicine",
-          "Cement",
-          "Detergent",
-          "Petrol"
+          "Proton",
+          "Electron",
+          "Neutron",
+          "Nucleus"
         ],
-        answer: 0
+        answer: 1
       },
       {
-        question: "Chemical industries support other industries by:",
+        question: "Where are protons and neutrons found in an atom?",
         options: [
-          "Providing essential raw materials and chemical products",
-          "Preventing manufacturing",
-          "Stopping agricultural activities",
-          "Reducing the availability of materials"
+          "In the nucleus",
+          "In the electron shells",
+          "Outside the atom",
+          "Only in ions"
         ],
         answer: 0
       }
@@ -177,180 +295,60 @@ const topics = [
   },
 
   {
-    title: "Raw Materials Used in Chemical Industries",
+    title: "Electron Arrangement",
     summary:
-      "Chemical industries use a variety of raw materials obtained from natural and industrial sources. Important raw materials include crude oil, natural gas, coal, limestone, salt, water, air, sulphur, and minerals. The choice of raw material depends on the type of chemical product being manufactured. These materials are processed through physical and chemical operations to produce useful substances.",
+      "Electrons are arranged in shells around the nucleus. For the first 20 elements, the shells are filled in the pattern 2, 8, 8, 2. The electron arrangements of lithium, oxygen, sodium and calcium are 2,1; 2,6; 2,8,1; and 2,8,8,2 respectively.",
 
     questions: [
       {
-        question: "Which of the following is a major raw material for the petrochemical industry?",
+        question: "What is the electron arrangement of lithium (Li), atomic number 3?",
         options: [
-          "Crude oil",
-          "Wood",
-          "Cotton",
-          "Glass"
+          "2,1",
+          "1,2",
+          "2,2",
+          "3"
         ],
         answer: 0
       },
       {
-        question: "Limestone is an important raw material in the production of:",
+        question: "What is the electron arrangement of oxygen (O), atomic number 8?",
         options: [
-          "Cement",
-          "Perfume",
-          "Soap",
-          "Medicine"
+          "2,6",
+          "6,2",
+          "2,8",
+          "4,4"
         ],
         answer: 0
       },
       {
-        question: "Which of the following is a raw material used by many chemical industries?",
+        question: "What is the electron arrangement of sodium (Na), atomic number 11?",
         options: [
-          "Water",
-          "Clothing",
-          "Furniture",
-          "Paper money"
+          "2,8,1",
+          "2,7,2",
+          "2,8,2",
+          "8,2,1"
         ],
         answer: 0
       },
       {
-        question: "Common salt can be used as a raw material for producing:",
+        question: "What is the electron arrangement of calcium (Ca), atomic number 20?",
         options: [
-          "Chlorine and sodium hydroxide",
-          "Cement only",
-          "Wood only",
-          "Glass only"
+          "2,8,8,2",
+          "2,8,10",
+          "2,8,9,1",
+          "2,8,8,1"
         ],
         answer: 0
       },
       {
-        question: "Which natural resource provides several important raw materials for the chemical industry?",
+        question: "Which element has the electron arrangement 2,8,1?",
         options: [
-          "Air",
-          "Plastic bags",
-          "Furniture",
-          "Clothing"
+          "Lithium",
+          "Oxygen",
+          "Sodium",
+          "Calcium"
         ],
-        answer: 0
-      }
-    ]
-  },
-
-  {
-    title: "Career Opportunities in Chemical Industries",
-    summary:
-      "Chemical industries provide many career opportunities for people with different educational and technical backgrounds. Careers include chemical engineering, chemistry, laboratory technology, quality control, environmental management, production management, research and development, sales, marketing, safety management, and industrial maintenance. Professionals in these areas help to design processes, develop products, maintain quality, protect workers and manage industrial operations.",
-
-    questions: [
-      {
-        question: "Which professional is directly involved in the study and application of chemical processes?",
-        options: [
-          "Chemical engineer",
-          "Architect",
-          "Pilot",
-          "Journalist"
-        ],
-        answer: 0
-      },
-      {
-        question: "Which career involves testing chemical products and substances in a laboratory?",
-        options: [
-          "Laboratory technologist",
-          "Bus driver",
-          "Accountant",
-          "Photographer"
-        ],
-        answer: 0
-      },
-      {
-        question: "A quality-control officer in a chemical industry is mainly responsible for:",
-        options: [
-          "Ensuring products meet required standards",
-          "Driving company vehicles",
-          "Designing buildings",
-          "Selling airline tickets"
-        ],
-        answer: 0
-      },
-      {
-        question: "Which career is concerned with developing new chemical products and processes?",
-        options: [
-          "Research and development scientist",
-          "Receptionist",
-          "Tour guide",
-          "Fashion designer"
-        ],
-        answer: 0
-      },
-      {
-        question: "An environmental officer in a chemical industry helps to:",
-        options: [
-          "Control environmental pollution and ensure compliance with regulations",
-          "Design clothing",
-          "Operate a bank",
-          "Sell food"
-        ],
-        answer: 0
-      }
-    ]
-  },
-
-  {
-    title: "Fine and Heavy Chemicals",
-    summary:
-      "Chemicals produced by industries can be classified broadly as heavy chemicals and fine chemicals. Heavy chemicals are generally produced in very large quantities and are often used as raw materials for other industries. Examples include sulphuric acid, hydrochloric acid, sodium hydroxide, ammonia and chlorine. Fine chemicals are produced in relatively smaller quantities and have high purity and specific applications. Examples include pharmaceutical compounds, laboratory reagents, specialty chemicals and certain chemicals used in research and advanced manufacturing.",
-
-    questions: [
-      {
-        question: "What are heavy chemicals?",
-        options: [
-          "Chemicals produced mainly in large quantities for industrial use",
-          "Chemicals used only in hospitals",
-          "Chemicals found only in laboratories",
-          "Chemicals that are always physically heavy"
-        ],
-        answer: 0
-      },
-      {
-        question: "Which of the following is not an example of a heavy chemical?",
-        options: [
-          
-          "A perfume",
-          "All the options",
-          "A vitamin tablet",
-          "A laboratory dye"
-        ],
-        answer: 0
-      },
-      {
-        question: "Fine chemicals are generally produced:",
-        options: [
-          "In relatively small quantities with high purity and specific applications",
-          "Only for construction",
-          "In unlimited quantities without quality control",
-          "Only from crude oil"
-        ],
-        answer: 0
-      },
-      {
-        question: "Which of the following is most likely to be classified as a fine chemical?",
-        options: [
-          
-          "Sulphuric acid produced in bulk",
-          "Sodium chloride produced in bulk",
-          "Industrial ammonia",
-          "A pharmaceutical compound"
-        ],
-        answer: 3
-      },
-      {
-        question: "Which statement correctly compares heavy and fine chemicals?",
-        options: [
-          "Heavy chemicals are generally produced in large quantities, while fine chemicals are produced in smaller quantities for specific uses",
-          "Fine chemicals are always produced in larger quantities than heavy chemicals",
-          "Heavy chemicals are only used in medicine",
-          "There is no difference between them"
-        ],
-        answer: 0
+        answer: 2
       }
     ]
   }
